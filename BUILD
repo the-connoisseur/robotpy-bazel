@@ -1,8 +1,12 @@
-load("@python_versions//3.13:defs.bzl", "compile_pip_requirements")
+load("@rules_python//python/uv:lock.bzl", "lock")
 
-compile_pip_requirements(
-    name = "requirements_3_13",
-    src = "requirements.in",
-    requirements_txt = "requirements_lock_3_13.txt",
-    timeout = "moderate",
+# This generates a universal lock file, which ensures consistent and
+# reproducible dependency installations across different platforms, operating
+# systems, architectures, and Python versions. It encapsulates all possible
+# dependencies across diverse systems.
+lock(
+    name = "requirements_lock",
+    srcs = ["requirements.in"],
+    out = "requirements_lock.txt",
+    universal = True,
 )

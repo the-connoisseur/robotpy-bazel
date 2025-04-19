@@ -5,14 +5,35 @@ module(
 
 bazel_dep(name = "rules_python", version = "1.3.0")
 
+single_version_override(
+    module_name = "rules_python",
+    version = "1.3.0",
+    patches = [
+        "//:third_party/rules_python/0001-Ignore-uv-build-artifacts-in-manifest.patch",
+        "//:third_party/rules_python/0002-Make-uv-current-toolchain-visibility-public.patch",
+    ],
+    patch_strip = 1,
+)
+
 python = use_extension("@rules_python//python/extensions:python.bzl", "python")
 python.toolchain(python_version = "3.13")
 use_repo(python, "python_3_13", "python_versions")
 
+uv = use_extension(
+    "@rules_python//python/uv:uv.bzl",
+    "uv",
+    # Use `dev_dependency` so that the toolchain isn't defined when this module
+    # is used elsewhere.
+    dev_dependency = True,
+)
+uv.configure(version = "0.6.14")
+
 pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
 pip.parse(
-    hub_name = "pip",
+    hub_name = "robotpy_bazel_pip_deps",
     python_version = "3.13",
-    requirements_lock = "//:requirements_lock_3_13.txt",
+    requirements_lock = "//:requirements_lock.txt",
+    experimental_index_url = "https://pypi.org/simple",
+    download_only = True,
 )
-use_repo(pip, "pip")
+use_repo(pip, "robotpy_bazel_pip_deps")
