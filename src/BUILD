@@ -1,5 +1,5 @@
 load("@rules_python//python:defs.bzl", "py_binary")
-load("@pip//:requirements.bzl", "requirement")
+load("@robotpy_bazel_pip_deps//:requirements.bzl", "requirement")
 
 py_binary(
     name = "robot",
