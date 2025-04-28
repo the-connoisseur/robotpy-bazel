@@ -63,6 +63,19 @@ class TalkerTest(unittest.TestCase):
             end_time = time.time() + 1
             while time.time() < end_time:
                 rclpy.spin_once(self.node, timeout_sec=0.02)
-            self.assertGreater(len(messages_rx), 100)
+            self.assertGreaterEqual(len(messages_rx), 100)
+        finally:
+            self.node.destroy_subscription(subscriber)
+
+    def test_talker_message_increment(self, proc_output):
+        """Tests that the talker increments the value in the message by 1 each time."""
+        values_rx = []
+        subscriber = self.node.create_subscription(std_msgs.msg.String, 'chatter', lambda message: values_rx.append(int(message.data.split(': ')[1])) if message.data.startswith('Hello, world: ') and message.data.split(': ')[1].isdigit() else None, 10)
+
+        try:
+            end_time = time.time() + 2
+            while len(values_rx) < 100:
+                rclpy.spin_once(self.node, timeout_sec=0.02)
+            self.assertTrue(all(values_rx[i] == values_rx[i-1] + 1 for i in range(1, len(values_rx))))
         finally:
             self.node.destroy_subscription(subscriber)
