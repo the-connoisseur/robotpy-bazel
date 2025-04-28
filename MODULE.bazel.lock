@@ -1450,11 +1450,11 @@
     "@@rules_python~//python/extensions:pip.bzl%pip": {
       "general": {
         "bzlTransitiveDigest": "3A3oQe5xMAvksb8rRz9tHG+9WeCsJY9bueknzK+H5RQ=",
-        "usagesDigest": "dgZPUwVZcfH6dxBqg0tfdMNTTPhY2UxW/YQEqlReMSY=",
+        "usagesDigest": "4Ky8jSsMnY+dXrYWHC8/thVRBVKvFJ++4r678JYo4zU=",
         "recordedFileInputs": {
           "@@rules_python~//tools/publish/requirements_linux.txt": "d576e0d8542df61396a9b38deeaa183c24135ed5e8e73bb9622f298f2671811e",
           "@@rules_python~~internal_deps~pypi__packaging//BUILD.bazel": "6b3ce4866652a6d87846b383e5bf3a9ca2f77560c1ce75616c0b90527492b5ff",
-          "@@//requirements_lock.txt": "573d18336001c969639b6da73778ba195bfeb3d285f90d45564e9bf9de03b2ff",
+          "@@//requirements_lock.txt": "742973374cc86716cc320fa9a78aec26d2c90273ecbd447208cd5ccc7f70b553",
           "@@rules_python~//BUILD.bazel": "adf6fd93d8f3b74585367192db928a2bc56ee0438dc3a43c6f1ad233508a19c3",
           "@@rules_fuzzing~//fuzzing/requirements.txt": "ab04664be026b632a0d2a2446c4f65982b7654f5b6851d2f9d399a19b7242a5b",
           "@@rules_python~//python/private/pypi/requirements_parser/resolve_target_platforms.py": "42bf51980528302373529bcdfddb8014e485182d6bc9d2f7d3bbe1f11d8d923d",
@@ -1462,6 +1462,7 @@
           "@@rules_python~//python/private/pypi/whl_installer/platform.py": "763d705ceaa41c87d8a6cfe8c6bc261a20881628b96f2fb4c4fef4b9befa53fe",
           "@@rules_python~~internal_deps~pypi__packaging//packaging-24.0.dist-info/RECORD": "be1aea790359b4c2c9ea83d153c1a57c407742a35b95ee36d00723509f5ed5dd",
           "@@com_github_mvukov_rules_ros2~//requirements_lock.txt": "ab0e82134a69a7389104ab00f2adf20780150efcbc19fb75a8bfff44480bd0d3",
+          "@@rules_python~~python~python_3_11_host//BUILD.bazel": "cf97d5763b728ce5ba8fdc3243350b967658ba4e3879734504aee002cec0d2b3",
           "@@rules_python~//tools/publish/requirements_windows.txt": "d18538a3982beab378fd5687f4db33162ee1ece69801f9a451661b1b64286b76",
           "@@protobuf~//python/requirements.txt": "983be60d3cec4b319dcab6d48aeb3f5b2f7c3350f26b3a9e97486c37967c73c5",
           "@@rules_python~//tools/publish/requirements_darwin.txt": "095d4a4f3d639dce831cd493367631cd51b53665292ab20194bac2c0c6458fa8"
@@ -1570,6 +1571,899 @@
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
               "repo": "pip_deps_39",
               "requirement": "setuptools<=70.3.0"
+            }
+          },
+          "robotpy_bazel_pip_deps_311_black_cp311_cp311_macosx_10_9_x86_64_a3933759": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp311-cp311-macosx_10_9_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "black==25.1.0",
+              "sha256": "a39337598244de4bae26475f77dda852ea00a93bd4c728e09eacd827ec929df0",
+              "urls": [
+                "https://files.pythonhosted.org/packages/7e/4f/87f596aca05c3ce5b94b8663dbfe242a12843caaa82dd3f85f1ffdc3f177/black-25.1.0-cp311-cp311-macosx_10_9_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_black_cp311_cp311_macosx_11_0_arm64_96c1c7cd": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp311-cp311-macosx_11_0_arm64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "black==25.1.0",
+              "sha256": "96c1c7cd856bba8e20094e36e0f948718dc688dba4a9d78c3adde52b9e6c2299",
+              "urls": [
+                "https://files.pythonhosted.org/packages/e7/d0/2c34c36190b741c59c901e56ab7f6e54dad8df05a6272a9747ecef7c6036/black-25.1.0-cp311-cp311-macosx_11_0_arm64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_black_cp311_cp311_manylinux_2_17_x86_64_bce2e264": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "black==25.1.0",
+              "sha256": "bce2e264d59c91e52d8000d507eb20a9aca4a778731a08cfff7e5ac4a4bb7096",
+              "urls": [
+                "https://files.pythonhosted.org/packages/21/d4/7518c72262468430ead45cf22bd86c883a6448b9eb43672765d69a8f1248/black-25.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_black_cp311_cp311_win_amd64_172b1dbf": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp311-cp311-win_amd64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "black==25.1.0",
+              "sha256": "172b1dbff09f86ce6f4eb8edf9dede08b1fce58ba194c87d7a4f1a5aa2f5b3c2",
+              "urls": [
+                "https://files.pythonhosted.org/packages/58/db/4f5beb989b547f79096e035c4981ceb36ac2b552d0ac5f2620e941501c99/black-25.1.0-cp311-cp311-win_amd64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_black_py3_none_any_95e8176d": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "black==25.1.0",
+              "sha256": "95e8176dae143ba9097f351d174fdaf0ccd29efb414b362ae3fd72bf0f710717",
+              "urls": [
+                "https://files.pythonhosted.org/packages/09/71/54e999902aed72baf26bca0d50781b01838251a462612966e9fc4891eadd/black-25.1.0-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_macosx_10_9_x86_64_a45e3c69": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-macosx_10_9_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "a45e3c6913c5b87b3ff120dcdc03f6131fa0065027d0ed7ee6190736a74cd401",
+              "urls": [
+                "https://files.pythonhosted.org/packages/6b/f4/927e3a8899e52a27fa57a48607ff7dc91a9ebe97399b357b85a0c7892e00/cffi-1.17.1-cp311-cp311-macosx_10_9_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_macosx_11_0_arm64_30c5e0cb": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-macosx_11_0_arm64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "30c5e0cb5ae493c04c8b42916e52ca38079f1b235c2f8ae5f4527b963c401caf",
+              "urls": [
+                "https://files.pythonhosted.org/packages/6c/f5/6c3a8efe5f503175aaddcbea6ad0d2c96dad6f5abb205750d1b3df44ef29/cffi-1.17.1-cp311-cp311-macosx_11_0_arm64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_manylinux_2_17_aarch64_a1ed2dd2": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "a1ed2dd2972641495a3ec98445e09766f077aee98a1c896dcb4ad0d303628e41",
+              "urls": [
+                "https://files.pythonhosted.org/packages/2e/ea/70ce63780f096e16ce8588efe039d3c4f91deb1dc01e9c73a287939c79a6/cffi-1.17.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_manylinux_2_17_s390x_a24ed04c": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "a24ed04c8ffd54b0729c07cee15a81d964e6fee0e3d4d342a27b020d22959dc6",
+              "urls": [
+                "https://files.pythonhosted.org/packages/62/12/ce8710b5b8affbcdd5c6e367217c242524ad17a02fe5beec3ee339f69f85/cffi-1.17.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_manylinux_2_17_x86_64_610faea7": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "610faea79c43e44c71e1ec53a554553fa22321b65fae24889706c0a84d4ad86d",
+              "urls": [
+                "https://files.pythonhosted.org/packages/ff/6b/d45873c5e0242196f042d555526f92aa9e0c32355a1be1ff8c27f077fd37/cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_musllinux_1_1_aarch64_a9b15d49": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-musllinux_1_1_aarch64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "a9b15d491f3ad5d692e11f6b71f7857e7835eb677955c00cc0aefcd0669adaf6",
+              "urls": [
+                "https://files.pythonhosted.org/packages/1a/52/d9a0e523a572fbccf2955f5abe883cfa8bcc570d7faeee06336fbd50c9fc/cffi-1.17.1-cp311-cp311-musllinux_1_1_aarch64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_musllinux_1_1_x86_64_fc48c783": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-musllinux_1_1_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "fc48c783f9c87e60831201f2cce7f3b2e4846bf4d8728eabe54d60700b318a0b",
+              "urls": [
+                "https://files.pythonhosted.org/packages/f8/4a/34599cac7dfcd888ff54e801afe06a19c17787dfd94495ab0c8d35fe99fb/cffi-1.17.1-cp311-cp311-musllinux_1_1_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cffi_cp311_cp311_win_amd64_caaf0640": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cffi-1.17.1-cp311-cp311-win_amd64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cffi==1.17.1",
+              "sha256": "caaf0640ef5f5517f49bc275eca1406b0ffa6aa184892812030f04c2abf589a0",
+              "urls": [
+                "https://files.pythonhosted.org/packages/3d/97/50228be003bb2802627d28ec0627837ac0bf35c90cf769812056f235b2d1/cffi-1.17.1-cp311-cp311-win_amd64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_click_py3_none_any_63c132bb": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "click-8.1.8-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "click==8.1.8",
+              "sha256": "63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2",
+              "urls": [
+                "https://files.pythonhosted.org/packages/7e/d4/7ebdbd03970677812aac39c869717059dbb71a4cfc033ca6e5221787892c/click-8.1.8-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_colorama_py2_none_any_4f1d9991": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_windows_x86_64"
+              ],
+              "filename": "colorama-0.4.6-py2.py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "colorama==0.4.6",
+              "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+              "urls": [
+                "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_macosx_10_9_universal2_8e0ddd63": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-macosx_10_9_universal2.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "8e0ddd63e6bf1161800592c71ac794d3fb8001f2caebe0966e77c5234fa9efc3",
+              "urls": [
+                "https://files.pythonhosted.org/packages/9e/be/7a26142e6d0f7683d8a382dd963745e65db895a79a280a30525ec92be890/cryptography-44.0.2-cp39-abi3-macosx_10_9_universal2.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_17_aarch64_81276f0e": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "81276f0ea79a208d961c433a947029e1a15948966658cf6710bbabb60fcc2639",
+              "urls": [
+                "https://files.pythonhosted.org/packages/06/88/638865be7198a84a7713950b1db7343391c6066a20e614f8fa286eb178ed/cryptography-44.0.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_17_x86_64_9a1e657c": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "9a1e657c0f4ea2a23304ee3f964db058c9e9e635cc7019c4aa21c330755ef6fd",
+              "urls": [
+                "https://files.pythonhosted.org/packages/d7/fc/99fe639bcdf58561dfad1faa8a7369d1dc13f20acd78371bb97a01613585/cryptography-44.0.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_28_aarch64_6210c059": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-manylinux_2_28_aarch64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "6210c05941994290f3f7f175a4a57dbbb2afd9273657614c506d5976db061181",
+              "urls": [
+                "https://files.pythonhosted.org/packages/53/7b/aafe60210ec93d5d7f552592a28192e51d3c6b6be449e7fd0a91399b5d07/cryptography-44.0.2-cp39-abi3-manylinux_2_28_aarch64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_28_armv7l_d1c35725": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "d1c3572526997b36f245a96a2b1713bf79ce99b271bbcf084beb6b9b075f29ea",
+              "urls": [
+                "https://files.pythonhosted.org/packages/16/32/051f7ce79ad5a6ef5e26a92b37f172ee2d6e1cce09931646eef8de1e9827/cryptography-44.0.2-cp39-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_28_x86_64_b042d2a2": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-manylinux_2_28_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "b042d2a275c8cee83a4b7ae30c45a15e6a4baa65a179a0ec2d78ebb90e4f6699",
+              "urls": [
+                "https://files.pythonhosted.org/packages/78/2b/999b2a1e1ba2206f2d3bca267d68f350beb2b048a41ea827e08ce7260098/cryptography-44.0.2-cp39-abi3-manylinux_2_28_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_34_aarch64_d0380603": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-manylinux_2_34_aarch64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "d03806036b4f89e3b13b6218fefea8d5312e450935b1a2d55f0524e2ed7c59d9",
+              "urls": [
+                "https://files.pythonhosted.org/packages/72/97/430e56e39a1356e8e8f10f723211a0e256e11895ef1a135f30d7d40f2540/cryptography-44.0.2-cp39-abi3-manylinux_2_34_aarch64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_34_x86_64_c7362add": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "c7362add18b416b69d58c910caa217f980c5ef39b23a38a0880dfd87bdf8cd23",
+              "urls": [
+                "https://files.pythonhosted.org/packages/89/33/c1cf182c152e1d262cac56850939530c05ca6c8d149aa0dcee490b417e99/cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_musllinux_1_2_aarch64_8cadc6e3": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-musllinux_1_2_aarch64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "8cadc6e3b5a1f144a039ea08a0bdb03a2a92e19c46be3285123d32029f40a922",
+              "urls": [
+                "https://files.pythonhosted.org/packages/e1/99/87cf26d4f125380dc674233971069bc28d19b07f7755b29861570e513650/cryptography-44.0.2-cp39-abi3-musllinux_1_2_aarch64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_musllinux_1_2_x86_64_6f101b1f": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-musllinux_1_2_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "6f101b1f780f7fc613d040ca4bdf835c6ef3b00e9bd7125a4255ec574c7916e4",
+              "urls": [
+                "https://files.pythonhosted.org/packages/b3/9f/6a3e0391957cc0c5f84aef9fbdd763035f2b52e998a53f99345e3ac69312/cryptography-44.0.2-cp39-abi3-musllinux_1_2_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_win_amd64_5f6f90b7": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "cryptography-44.0.2-cp39-abi3-win_amd64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "cryptography==44.0.2",
+              "sha256": "5f6f90b72d8ccadb9c6e311c775c8305381db88374c65fa1a68250aa8a9cb3a6",
+              "urls": [
+                "https://files.pythonhosted.org/packages/33/cf/1f7649b8b9a3543e042d3f348e398a061923ac05b507f3f4d95f11938aa9/cryptography-44.0.2-cp39-abi3-win_amd64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_mypy_extensions_py3_none_any_1be4cccd": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "mypy_extensions-1.1.0-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "mypy-extensions==1.1.0",
+              "sha256": "1be4cccdb0f2482337c4743e60421de3a356cd97508abadd57d47403e94f5505",
+              "urls": [
+                "https://files.pythonhosted.org/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_packaging_py3_none_any_29572ef2": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "packaging-25.0-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "packaging==25.0",
+              "sha256": "29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484",
+              "urls": [
+                "https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_pathspec_py3_none_any_a0d503e1": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "pathspec-0.12.1-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "pathspec==0.12.1",
+              "sha256": "a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08",
+              "urls": [
+                "https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_platformdirs_py3_none_any_a0387533": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "platformdirs-4.3.7-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "platformdirs==4.3.7",
+              "sha256": "a03875334331946f13c549dbd8f4bac7a13a50a895a0eb1e8c6a8ace80d40a94",
+              "urls": [
+                "https://files.pythonhosted.org/packages/6d/45/59578566b3275b8fd9157885918fcd0c4d74162928a5310926887b856a51/platformdirs-4.3.7-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_311_pycparser_py3_none_any_c3702b6d": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp311_linux_aarch64",
+                "cp311_linux_arm",
+                "cp311_linux_ppc",
+                "cp311_linux_s390x",
+                "cp311_linux_x86_64",
+                "cp311_osx_aarch64",
+                "cp311_osx_x86_64",
+                "cp311_windows_x86_64"
+              ],
+              "filename": "pycparser-2.22-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "robotpy_bazel_pip_deps_311",
+              "requirement": "pycparser==2.22",
+              "sha256": "c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc",
+              "urls": [
+                "https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_black_cp313_cp313_macosx_10_13_x86_64_8f0b18a0": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp313-cp313-macosx_10_13_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "black==25.1.0",
+              "sha256": "8f0b18a02996a836cc9c9c78e5babec10930862827b1b724ddfe98ccf2f2fe4f",
+              "urls": [
+                "https://files.pythonhosted.org/packages/98/87/0edf98916640efa5d0696e1abb0a8357b52e69e82322628f25bf14d263d1/black-25.1.0-cp313-cp313-macosx_10_13_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_black_cp313_cp313_macosx_11_0_arm64_afebb709": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp313-cp313-macosx_11_0_arm64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "black==25.1.0",
+              "sha256": "afebb7098bfbc70037a053b91ae8437c3857482d3a690fefc03e9ff7aa9a5fd3",
+              "urls": [
+                "https://files.pythonhosted.org/packages/52/e5/f7bf17207cf87fa6e9b676576749c6b6ed0d70f179a3d812c997870291c3/black-25.1.0-cp313-cp313-macosx_11_0_arm64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_black_cp313_cp313_manylinux_2_17_x86_64_030b9759": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "black==25.1.0",
+              "sha256": "030b9759066a4ee5e5aca28c3c77f9c64789cdd4de8ac1df642c40b708be6171",
+              "urls": [
+                "https://files.pythonhosted.org/packages/e3/ee/adda3d46d4a9120772fae6de454c8495603c37c4c3b9c60f25b1ab6401fe/black-25.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_black_cp313_cp313_win_amd64_a22f402b": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-cp313-cp313-win_amd64.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "black==25.1.0",
+              "sha256": "a22f402b410566e2d1c950708c77ebf5ebd5d0d88a6a2e87c86d9fb48afa0d18",
+              "urls": [
+                "https://files.pythonhosted.org/packages/cc/64/94eb5f45dcb997d2082f097a3944cfc7fe87e071907f677e80788a2d7b7a/black-25.1.0-cp313-cp313-win_amd64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_black_py3_none_any_95e8176d": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "black-25.1.0-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "black==25.1.0",
+              "sha256": "95e8176dae143ba9097f351d174fdaf0ccd29efb414b362ae3fd72bf0f710717",
+              "urls": [
+                "https://files.pythonhosted.org/packages/09/71/54e999902aed72baf26bca0d50781b01838251a462612966e9fc4891eadd/black-25.1.0-py3-none-any.whl"
+              ]
             }
           },
           "robotpy_bazel_pip_deps_313_cffi_cp313_cp313_macosx_10_13_x86_64_f3a2b422": {
@@ -1769,6 +2663,49 @@
               "sha256": "f6a16c31041f09ead72d69f583767292f750d24913dadacf5756b966aacb3f1a",
               "urls": [
                 "https://files.pythonhosted.org/packages/7c/fc/6a8cb64e5f0324877d503c854da15d76c1e50eb722e320b15345c4d0c6de/cffi-1.17.1-cp313-cp313-win_amd64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_click_py3_none_any_63c132bb": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "click-8.1.8-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "click==8.1.8",
+              "sha256": "63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2",
+              "urls": [
+                "https://files.pythonhosted.org/packages/7e/d4/7ebdbd03970677812aac39c869717059dbb71a4cfc033ca6e5221787892c/click-8.1.8-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_colorama_py2_none_any_4f1d9991": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_windows_x86_64"
+              ],
+              "filename": "colorama-0.4.6-py2.py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "colorama==0.4.6",
+              "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+              "urls": [
+                "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl"
               ]
             }
           },
@@ -2044,6 +2981,106 @@
               "sha256": "5f6f90b72d8ccadb9c6e311c775c8305381db88374c65fa1a68250aa8a9cb3a6",
               "urls": [
                 "https://files.pythonhosted.org/packages/33/cf/1f7649b8b9a3543e042d3f348e398a061923ac05b507f3f4d95f11938aa9/cryptography-44.0.2-cp39-abi3-win_amd64.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_mypy_extensions_py3_none_any_1be4cccd": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "mypy_extensions-1.1.0-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "mypy-extensions==1.1.0",
+              "sha256": "1be4cccdb0f2482337c4743e60421de3a356cd97508abadd57d47403e94f5505",
+              "urls": [
+                "https://files.pythonhosted.org/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_packaging_py3_none_any_29572ef2": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "packaging-25.0-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "packaging==25.0",
+              "sha256": "29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484",
+              "urls": [
+                "https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_pathspec_py3_none_any_a0d503e1": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "pathspec-0.12.1-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "pathspec==0.12.1",
+              "sha256": "a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08",
+              "urls": [
+                "https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl"
+              ]
+            }
+          },
+          "robotpy_bazel_pip_deps_313_platformdirs_py3_none_any_a0387533": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@robotpy_bazel_pip_deps//{name}:{target}",
+              "experimental_target_platforms": [
+                "cp313_linux_aarch64",
+                "cp313_linux_arm",
+                "cp313_linux_ppc",
+                "cp313_linux_s390x",
+                "cp313_linux_x86_64",
+                "cp313_osx_aarch64",
+                "cp313_osx_x86_64",
+                "cp313_windows_x86_64"
+              ],
+              "filename": "platformdirs-4.3.7-py3-none-any.whl",
+              "python_interpreter_target": "@@rules_python~~python~python_3_13_host//:python",
+              "repo": "robotpy_bazel_pip_deps_313",
+              "requirement": "platformdirs==4.3.7",
+              "sha256": "a03875334331946f13c549dbd8f4bac7a13a50a895a0eb1e8c6a8ace80d40a94",
+              "urls": [
+                "https://files.pythonhosted.org/packages/6d/45/59578566b3275b8fd9157885918fcd0c4d74162928a5310926887b856a51/platformdirs-4.3.7-py3-none-any.whl"
               ]
             }
           },
@@ -4920,13 +5957,26 @@
               "repo_name": "robotpy_bazel_pip_deps",
               "extra_hub_aliases": {},
               "whl_map": {
-                "cffi": "{\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_macosx_10_13_x86_64_f3a2b422\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-macosx_10_13_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_macosx_11_0_arm64_0984a492\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-macosx_11_0_arm64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_manylinux_2_17_aarch64_706510fe\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_manylinux_2_17_s390x_c59d6e98\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_manylinux_2_17_x86_64_dd398dbc\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_musllinux_1_1_aarch64_3edc8d95\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-musllinux_1_1_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_musllinux_1_1_x86_64_72e72408\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-musllinux_1_1_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_win_amd64_f6a16c31\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-win_amd64.whl\",\"version\":\"3.13\"}]}",
-                "cryptography": "{\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_macosx_10_9_universal2_8e0ddd63\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-macosx_10_9_universal2.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_17_aarch64_81276f0e\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_17_x86_64_9a1e657c\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_28_aarch64_6210c059\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_28_armv7l_d1c35725\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_28_x86_64_b042d2a2\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_34_aarch64_d0380603\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_34_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_34_x86_64_c7362add\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_musllinux_1_2_aarch64_8cadc6e3\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-musllinux_1_2_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_musllinux_1_2_x86_64_6f101b1f\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-musllinux_1_2_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_win_amd64_5f6f90b7\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-win_amd64.whl\",\"version\":\"3.13\"}]}",
-                "pycparser": "{\"robotpy_bazel_pip_deps_313_pycparser_py3_none_any_c3702b6d\":[{\"filename\":\"pycparser-2.22-py3-none-any.whl\",\"version\":\"3.13\"}]}"
+                "black": "{\"robotpy_bazel_pip_deps_311_black_cp311_cp311_macosx_10_9_x86_64_a3933759\":[{\"filename\":\"black-25.1.0-cp311-cp311-macosx_10_9_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_black_cp311_cp311_macosx_11_0_arm64_96c1c7cd\":[{\"filename\":\"black-25.1.0-cp311-cp311-macosx_11_0_arm64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_black_cp311_cp311_manylinux_2_17_x86_64_bce2e264\":[{\"filename\":\"black-25.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_black_cp311_cp311_win_amd64_172b1dbf\":[{\"filename\":\"black-25.1.0-cp311-cp311-win_amd64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_black_py3_none_any_95e8176d\":[{\"filename\":\"black-25.1.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_black_cp313_cp313_macosx_10_13_x86_64_8f0b18a0\":[{\"filename\":\"black-25.1.0-cp313-cp313-macosx_10_13_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_black_cp313_cp313_macosx_11_0_arm64_afebb709\":[{\"filename\":\"black-25.1.0-cp313-cp313-macosx_11_0_arm64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_black_cp313_cp313_manylinux_2_17_x86_64_030b9759\":[{\"filename\":\"black-25.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_black_cp313_cp313_win_amd64_a22f402b\":[{\"filename\":\"black-25.1.0-cp313-cp313-win_amd64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_black_py3_none_any_95e8176d\":[{\"filename\":\"black-25.1.0-py3-none-any.whl\",\"version\":\"3.13\"}]}",
+                "cffi": "{\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_macosx_10_9_x86_64_a45e3c69\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-macosx_10_9_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_macosx_11_0_arm64_30c5e0cb\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-macosx_11_0_arm64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_manylinux_2_17_aarch64_a1ed2dd2\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_manylinux_2_17_s390x_a24ed04c\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_manylinux_2_17_x86_64_610faea7\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_musllinux_1_1_aarch64_a9b15d49\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-musllinux_1_1_aarch64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_musllinux_1_1_x86_64_fc48c783\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-musllinux_1_1_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cffi_cp311_cp311_win_amd64_caaf0640\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-win_amd64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_macosx_10_13_x86_64_f3a2b422\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-macosx_10_13_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_macosx_11_0_arm64_0984a492\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-macosx_11_0_arm64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_manylinux_2_17_aarch64_706510fe\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_manylinux_2_17_s390x_c59d6e98\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_manylinux_2_17_x86_64_dd398dbc\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_musllinux_1_1_aarch64_3edc8d95\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-musllinux_1_1_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_musllinux_1_1_x86_64_72e72408\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-musllinux_1_1_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cffi_cp313_cp313_win_amd64_f6a16c31\":[{\"filename\":\"cffi-1.17.1-cp313-cp313-win_amd64.whl\",\"version\":\"3.13\"}]}",
+                "click": "{\"robotpy_bazel_pip_deps_311_click_py3_none_any_63c132bb\":[{\"filename\":\"click-8.1.8-py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_click_py3_none_any_63c132bb\":[{\"filename\":\"click-8.1.8-py3-none-any.whl\",\"version\":\"3.13\"}]}",
+                "colorama": "{\"robotpy_bazel_pip_deps_311_colorama_py2_none_any_4f1d9991\":[{\"filename\":\"colorama-0.4.6-py2.py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_colorama_py2_none_any_4f1d9991\":[{\"filename\":\"colorama-0.4.6-py2.py3-none-any.whl\",\"version\":\"3.13\"}]}",
+                "cryptography": "{\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_macosx_10_9_universal2_8e0ddd63\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-macosx_10_9_universal2.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_17_aarch64_81276f0e\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_17_x86_64_9a1e657c\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_28_aarch64_6210c059\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_aarch64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_28_armv7l_d1c35725\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_28_x86_64_b042d2a2\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_34_aarch64_d0380603\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_34_aarch64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_manylinux_2_34_x86_64_c7362add\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_musllinux_1_2_aarch64_8cadc6e3\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-musllinux_1_2_aarch64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_musllinux_1_2_x86_64_6f101b1f\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-musllinux_1_2_x86_64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_311_cryptography_cp39_abi3_win_amd64_5f6f90b7\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-win_amd64.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_macosx_10_9_universal2_8e0ddd63\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-macosx_10_9_universal2.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_17_aarch64_81276f0e\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_17_x86_64_9a1e657c\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_28_aarch64_6210c059\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_28_armv7l_d1c35725\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_28_x86_64_b042d2a2\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_28_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_34_aarch64_d0380603\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_34_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_manylinux_2_34_x86_64_c7362add\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_musllinux_1_2_aarch64_8cadc6e3\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-musllinux_1_2_aarch64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_musllinux_1_2_x86_64_6f101b1f\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-musllinux_1_2_x86_64.whl\",\"version\":\"3.13\"}],\"robotpy_bazel_pip_deps_313_cryptography_cp39_abi3_win_amd64_5f6f90b7\":[{\"filename\":\"cryptography-44.0.2-cp39-abi3-win_amd64.whl\",\"version\":\"3.13\"}]}",
+                "mypy_extensions": "{\"robotpy_bazel_pip_deps_311_mypy_extensions_py3_none_any_1be4cccd\":[{\"filename\":\"mypy_extensions-1.1.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_mypy_extensions_py3_none_any_1be4cccd\":[{\"filename\":\"mypy_extensions-1.1.0-py3-none-any.whl\",\"version\":\"3.13\"}]}",
+                "packaging": "{\"robotpy_bazel_pip_deps_311_packaging_py3_none_any_29572ef2\":[{\"filename\":\"packaging-25.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_packaging_py3_none_any_29572ef2\":[{\"filename\":\"packaging-25.0-py3-none-any.whl\",\"version\":\"3.13\"}]}",
+                "pathspec": "{\"robotpy_bazel_pip_deps_311_pathspec_py3_none_any_a0d503e1\":[{\"filename\":\"pathspec-0.12.1-py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_pathspec_py3_none_any_a0d503e1\":[{\"filename\":\"pathspec-0.12.1-py3-none-any.whl\",\"version\":\"3.13\"}]}",
+                "platformdirs": "{\"robotpy_bazel_pip_deps_311_platformdirs_py3_none_any_a0387533\":[{\"filename\":\"platformdirs-4.3.7-py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_platformdirs_py3_none_any_a0387533\":[{\"filename\":\"platformdirs-4.3.7-py3-none-any.whl\",\"version\":\"3.13\"}]}",
+                "pycparser": "{\"robotpy_bazel_pip_deps_311_pycparser_py3_none_any_c3702b6d\":[{\"filename\":\"pycparser-2.22-py3-none-any.whl\",\"version\":\"3.11\"}],\"robotpy_bazel_pip_deps_313_pycparser_py3_none_any_c3702b6d\":[{\"filename\":\"pycparser-2.22-py3-none-any.whl\",\"version\":\"3.13\"}]}"
               },
               "packages": [
+                "black",
                 "cffi",
+                "click",
                 "cryptography",
+                "mypy_extensions",
+                "packaging",
+                "pathspec",
+                "platformdirs",
                 "pycparser"
               ],
               "groups": {}
