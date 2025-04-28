@@ -1,5 +1,6 @@
 import wpilib
 
+
 class MyRobot(wpilib.TimedRobot):
     def robotInit(self):
         """Robot-wide initialization code.
@@ -131,5 +132,5 @@ class MyRobot(wpilib.TimedRobot):
         pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     wpilib.run(MyRobot)
