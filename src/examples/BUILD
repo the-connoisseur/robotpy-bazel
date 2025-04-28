@@ -1,6 +1,6 @@
+load("@robotpy_bazel_pip_deps//:requirements.bzl", "requirement")
 load("@rules_pkg//:pkg.bzl", "pkg_tar")
 load("@rules_python//python:defs.bzl", "py_binary")
-load("@robotpy_bazel_pip_deps//:requirements.bzl", "requirement")
 
 py_binary(
     name = "multi_platform_support_test",
@@ -16,4 +16,24 @@ pkg_tar(
     srcs = [":multi_platform_support_test"],
     include_runfiles = True,
     extension = "tar.gz",
+)
+
+py_binary(
+    name = "talker",
+    srcs = ["talker.py"],
+    python_version = "3.11",
+    deps = [
+        "@ros2_common_interfaces//:py_std_msgs",
+        "@ros2_rclpy//:rclpy",
+    ],
+)
+
+py_binary(
+    name = "listener",
+    srcs = ["listener.py"],
+    python_version = "3.11",
+    deps = [
+        "@ros2_common_interfaces//:py_std_msgs",
+        "@ros2_rclpy//:rclpy",
+    ],
 )
