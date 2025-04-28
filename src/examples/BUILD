@@ -1,3 +1,4 @@
+load("@com_github_mvukov_rules_ros2//ros2:launch.bzl", "ros2_launch")
 load("@robotpy_bazel_pip_deps//:requirements.bzl", "requirement")
 load("@rules_pkg//:pkg.bzl", "pkg_tar")
 load("@rules_python//python:defs.bzl", "py_binary")
@@ -35,5 +36,14 @@ py_binary(
     deps = [
         "@ros2_common_interfaces//:py_std_msgs",
         "@ros2_rclpy//:rclpy",
+    ],
+)
+
+ros2_launch(
+    name = "chatter",
+    launch_file = "chatter.launch.py",
+    nodes = [
+        ":talker",
+        ":listener",
     ],
 )

@@ -52,4 +52,7 @@ use_repo(
     rules_ros2_non_module_deps,
     "ros2_common_interfaces",
     "ros2_rclpy",
+    # ros2cli and ros2_launch_ros are required to run a ros2_launch target
+    "ros2cli",
+    "ros2_launch_ros",
 )
