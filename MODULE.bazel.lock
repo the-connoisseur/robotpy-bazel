@@ -9,9 +9,17 @@
     "https://bcr.bazel.build/modules/abseil-cpp/20230802.0/MODULE.bazel": "d253ae36a8bd9ee3c5955384096ccb6baf16a1b1e93e858370da0a3b94f77c16",
     "https://bcr.bazel.build/modules/abseil-cpp/20230802.1/MODULE.bazel": "fa92e2eb41a04df73cdabeec37107316f7e5272650f81d6cc096418fe647b915",
     "https://bcr.bazel.build/modules/abseil-cpp/20240116.1/MODULE.bazel": "37bcdb4440fbb61df6a1c296ae01b327f19e9bb521f9b8e26ec854b6f97309ed",
-    "https://bcr.bazel.build/modules/abseil-cpp/20240116.1/source.json": "9be551b8d4e3ef76875c0d744b5d6a504a27e3ae67bc6b28f46415fd2d2957da",
+    "https://bcr.bazel.build/modules/abseil-cpp/20240116.2/MODULE.bazel": "73939767a4686cd9a520d16af5ab440071ed75cec1a876bf2fcfaf1f71987a16",
+    "https://bcr.bazel.build/modules/abseil-cpp/20250127.0/MODULE.bazel": "d1086e248cda6576862b4b3fe9ad76a214e08c189af5b42557a6e1888812c5d5",
+    "https://bcr.bazel.build/modules/abseil-cpp/20250127.0/source.json": "1b996859f840d8efc7c720efc61dcf2a84b1261cb3974cbbe9b6666ebf567775",
+    "https://bcr.bazel.build/modules/apple_support/1.15.1/MODULE.bazel": "a0556fefca0b1bb2de8567b8827518f94db6a6e7e7d632b4c48dc5f865bc7c85",
+    "https://bcr.bazel.build/modules/apple_support/1.17.1/MODULE.bazel": "655c922ab1209978a94ef6ca7d9d43e940cd97d9c172fb55f94d91ac53f8610b",
+    "https://bcr.bazel.build/modules/apple_support/1.17.1/source.json": "6b2b8c74d14e8d485528a938e44bdb72a5ba17632b9e14ef6e68a5ee96c8347f",
     "https://bcr.bazel.build/modules/apple_support/1.5.0/MODULE.bazel": "50341a62efbc483e8a2a6aec30994a58749bd7b885e18dd96aa8c33031e558ef",
-    "https://bcr.bazel.build/modules/apple_support/1.5.0/source.json": "eb98a7627c0bc486b57f598ad8da50f6625d974c8f723e9ea71bd39f709c9862",
+    "https://bcr.bazel.build/modules/asio/1.28.2/MODULE.bazel": "c985926a85680be7047309db9fb56f2e1c590394adbe48f309ee76d4c78ab8ce",
+    "https://bcr.bazel.build/modules/asio/1.31.0/MODULE.bazel": "6cf4487ad2f3b2fe5b67dcedbd4be8609ad177522f3f5b137a7e04eb4ee77e04",
+    "https://bcr.bazel.build/modules/asio/1.31.0/source.json": "19248b037dcd027b6c4ea8a8989e7d9e9c329ca0e0dde1979520c9120b8648a0",
+    "https://bcr.bazel.build/modules/bazel_features/1.10.0/MODULE.bazel": "f75e8807570484a99be90abcd52b5e1f390362c258bcb73106f4544957a48101",
     "https://bcr.bazel.build/modules/bazel_features/1.11.0/MODULE.bazel": "f9382337dd5a474c3b7d334c2f83e50b6eaedc284253334cf823044a26de03e8",
     "https://bcr.bazel.build/modules/bazel_features/1.15.0/MODULE.bazel": "d38ff6e517149dc509406aca0db3ad1efdd890a85e049585b7234d04238e2a4d",
     "https://bcr.bazel.build/modules/bazel_features/1.17.0/MODULE.bazel": "039de32d21b816b47bd42c778e0454217e9c9caac4a3cf8e15c7231ee3ddee4d",
@@ -32,16 +40,144 @@
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.0/MODULE.bazel": "0db596f4563de7938de764cc8deeabec291f55e8ec15299718b93c4423e9796d",
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/MODULE.bazel": "3120d80c5861aa616222ec015332e5f8d3171e062e3e804a2a0253e1be26e59b",
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/source.json": "f121b43eeefc7c29efbd51b83d08631e2347297c95aac9764a701f2a6a2bb953",
+    "https://bcr.bazel.build/modules/boost.algorithm/1.83.0.bcr.1/MODULE.bazel": "8657617ad7aa55d179078faa15c131f07ae1bc35e536343211eee2d942368881",
+    "https://bcr.bazel.build/modules/boost.algorithm/1.83.0.bcr.1/source.json": "664117fe5b44d4e00e6a0b7c8f3893f22971bb11401ef6c0afa0c44c9bcf62b6",
+    "https://bcr.bazel.build/modules/boost.align/1.83.0.bcr.1/MODULE.bazel": "3a4320a5c5f21e3e75024550d4db99cb19575db87ddb4bfd9b7821f87b6a7999",
+    "https://bcr.bazel.build/modules/boost.align/1.83.0.bcr.1/source.json": "ee963f5571b73693e9f2fc647efbb45f6255b49b1ad4f59e914d2ad2c20dd335",
+    "https://bcr.bazel.build/modules/boost.array/1.83.0.bcr.1/MODULE.bazel": "ffe2956a8f5d90839e710cb298f0a342acc5a1d8fdfeee9578cae9657df87e38",
+    "https://bcr.bazel.build/modules/boost.array/1.83.0.bcr.1/source.json": "6d3925fef402c04bd7ea463203c1892c6ab96351c2264566e4bc9e6543fc777f",
+    "https://bcr.bazel.build/modules/boost.asio/1.83.0.bcr.1/MODULE.bazel": "a83b1ce41156ee9ebe6cac23e46bd6fb16bb328a781bd45e5742e06bff9228a3",
+    "https://bcr.bazel.build/modules/boost.asio/1.83.0.bcr.1/source.json": "bbf227d731bf5f7fdcf4d0aa0604f318919d1494daf89a19f4ebd6fa2f41d56d",
+    "https://bcr.bazel.build/modules/boost.assert/1.83.0.bcr.1/MODULE.bazel": "abc07418c37c6e1876f56d959ff1b7cdcac70c8b7236bbacc69ab66686968910",
+    "https://bcr.bazel.build/modules/boost.assert/1.83.0.bcr.1/source.json": "05d5c7ef77352f32264b9ca625df8ca742b78a94d4b057347a54204d6cd9ded6",
+    "https://bcr.bazel.build/modules/boost.bind/1.83.0.bcr.1/MODULE.bazel": "c226a7152112ec5329aa831fd7daab296db2e8bf1a427e05c33bb770c885e044",
+    "https://bcr.bazel.build/modules/boost.bind/1.83.0.bcr.1/source.json": "1ad06dbc6d538e539abaeb58d647d787b63c2b0eb54f61168c8501d420cdd691",
+    "https://bcr.bazel.build/modules/boost.chrono/1.83.0.bcr.1/MODULE.bazel": "3e14a982441c92d79ecd6a7229ad56e621deba5d123f39b559be13ce0ab4ec1d",
+    "https://bcr.bazel.build/modules/boost.chrono/1.83.0.bcr.1/source.json": "9c21c228f4c55418d5fa94f051a0d36f05723b6ca2fc5dd38e8098f9f97389a0",
+    "https://bcr.bazel.build/modules/boost.concept_check/1.83.0.bcr.1/MODULE.bazel": "987ddeeca7c552f7c15557ed9f1e1de26e976d1380002cd41e56ea0ef7e1d25e",
+    "https://bcr.bazel.build/modules/boost.concept_check/1.83.0.bcr.1/source.json": "0a5cb9c8a8b424c04a717b2cbf483f1ee576611b3370550369671ea4f5852e3c",
+    "https://bcr.bazel.build/modules/boost.config/1.83.0.bcr.1/MODULE.bazel": "a9049b46df8ba7d4a895122cfbda4cf71ad01f441fad62117931cfafecba35d1",
+    "https://bcr.bazel.build/modules/boost.config/1.83.0.bcr.1/source.json": "4810a18d8d9827bf2822ca8e3e1491cfb882657224bc2def70b334120415ccc2",
+    "https://bcr.bazel.build/modules/boost.container/1.83.0.bcr.1/MODULE.bazel": "41c6d3a367a7eea6debf93ec058acb682d83158231553a1a6a841c40679e8baa",
+    "https://bcr.bazel.build/modules/boost.container/1.83.0.bcr.1/source.json": "23f49c4fad6c0407f592b5fa825452ba67a2c0b3f78b1da8bee0bf16d2b6763f",
+    "https://bcr.bazel.build/modules/boost.container_hash/1.83.0.bcr.1/MODULE.bazel": "baf420d50979d18d247681bb4f3e097c054f314c2a3c98c14f1b750871329ad7",
+    "https://bcr.bazel.build/modules/boost.container_hash/1.83.0.bcr.1/source.json": "f3248fbd4a2cd88333343bd78f317e3f7b085b6a2a31adab26f402083bdbdb26",
+    "https://bcr.bazel.build/modules/boost.context/1.83.0.bcr.1/MODULE.bazel": "0d8d938d27d88442126a7db495df3d58e6c271ac6196a5a915e65d47268a8b96",
+    "https://bcr.bazel.build/modules/boost.context/1.83.0.bcr.1/source.json": "ba9f2d4e59ec6b5a83f3a7a71a1f5722ddcf88a222fd5d82b612d67d6d3d21d7",
+    "https://bcr.bazel.build/modules/boost.conversion/1.83.0.bcr.1/MODULE.bazel": "d05ea5d39c0399ddd0331922e64a6bb8bdfe40b83cb6d4ecee62d7cb68f6c36b",
+    "https://bcr.bazel.build/modules/boost.conversion/1.83.0.bcr.1/source.json": "7b91cda19dcf46d35b47fd30ea9a6226c880d27f6abd51f8107c5015fec9bd46",
+    "https://bcr.bazel.build/modules/boost.core/1.83.0.bcr.1/MODULE.bazel": "6aa5d86d84dbeefeda0f5e3ac596db7426ecb6f6ebdf69383c2963292ee568cf",
+    "https://bcr.bazel.build/modules/boost.core/1.83.0.bcr.1/source.json": "62f0884fe4d287b72146c3355df6d737b016f312bb3bf9c1bbf41fd84400b046",
+    "https://bcr.bazel.build/modules/boost.coroutine/1.83.0.bcr.1/MODULE.bazel": "6bcecf2b7c9a8a1744d906811fb910041da64fd514b352f8037f015cbcb228ca",
+    "https://bcr.bazel.build/modules/boost.coroutine/1.83.0.bcr.1/source.json": "a50aefa46627b6ba8576cb2bdae0d13b2bcd3d9639d5e131227adf108c9192f5",
+    "https://bcr.bazel.build/modules/boost.date_time/1.83.0.bcr.1/MODULE.bazel": "47500c0f2985abf43129c9e0c175f7846eec6dbaf29f1c5a506f3f7b24ca94e1",
+    "https://bcr.bazel.build/modules/boost.date_time/1.83.0.bcr.1/source.json": "efd4950a6be9febc2b315de7008ac72b331612c8a9bdc72eb3260bcf66f7edea",
+    "https://bcr.bazel.build/modules/boost.describe/1.83.0.bcr.1/MODULE.bazel": "04f902525e3f53a7eec9e10bb58623d5b249afaa4f245917cc827f63933351ba",
+    "https://bcr.bazel.build/modules/boost.describe/1.83.0.bcr.1/source.json": "b3201219ad62723a684c98d1f13448346774d5979adf99d88583765150a9095c",
+    "https://bcr.bazel.build/modules/boost.detail/1.83.0.bcr.2/MODULE.bazel": "0016cbb9f265ebd4efcbb5f1aff14ccce5754bd98c3d9ff375d3a39f4173f8de",
+    "https://bcr.bazel.build/modules/boost.detail/1.83.0.bcr.2/source.json": "0044cf130a00ccde75322449d2a525e1ca95af2bd61b49873125943c4d3ff7ad",
+    "https://bcr.bazel.build/modules/boost.exception/1.83.0.bcr.1/MODULE.bazel": "60d6418bbe6246f71c1ff211c08f187d975fe12a0f6845c64c6127977c51375b",
+    "https://bcr.bazel.build/modules/boost.exception/1.83.0.bcr.1/source.json": "54a9e9984fccf6f49385b28c301ff3af0e7485ac7e5281c5d249f1b5b1225c9c",
+    "https://bcr.bazel.build/modules/boost.function/1.83.0.bcr.1/MODULE.bazel": "b555cccb955cc4bd8d548f81ec29fdd33284ae04afd9ed92b254abe6357a5ed7",
+    "https://bcr.bazel.build/modules/boost.function/1.83.0.bcr.1/source.json": "a85e42738a1fd7eb3df45ca31fe213ca23832adb0032a7bcf9cd8dac42445f86",
+    "https://bcr.bazel.build/modules/boost.function_types/1.83.0.bcr.1/MODULE.bazel": "266d931a312bafb39053b6a0260e59882c1389e8126f9dc5b3f37a1c2b66a152",
+    "https://bcr.bazel.build/modules/boost.function_types/1.83.0.bcr.1/source.json": "c421295de00ee97f4d605d8a873ce002b64d9e4226f61db710ceaaf2ff1c581a",
+    "https://bcr.bazel.build/modules/boost.functional/1.83.0.bcr.1/MODULE.bazel": "8e0f52ea1e5f1d34442347c1ddcb202ce2cc610175226df58770c69d7267b4a8",
+    "https://bcr.bazel.build/modules/boost.functional/1.83.0.bcr.1/source.json": "6a3c58ca81f5226221ac1565aa3a7c93e5d04b27d2f9bd71e1b113ff19f5a658",
+    "https://bcr.bazel.build/modules/boost.fusion/1.83.0.bcr.1/MODULE.bazel": "1a651840d5710e5f2b882535f9fd7a18d6932c24559185362a3dfe0ca3702ee4",
+    "https://bcr.bazel.build/modules/boost.fusion/1.83.0.bcr.1/source.json": "8977203271c1f1db3f329e5cdd4960d26060ef13bdc7e47820b77f61d2369909",
+    "https://bcr.bazel.build/modules/boost.integer/1.83.0.bcr.1/MODULE.bazel": "29655d7e043ba79065ed8fb8b8b99133470ff240f4606bebb6085d2c856578df",
+    "https://bcr.bazel.build/modules/boost.integer/1.83.0.bcr.1/source.json": "92d1105b5e005c47b10c09b42dfbc86374a069b62055c7471eb8546545ee534b",
+    "https://bcr.bazel.build/modules/boost.intrusive/1.83.0.bcr.1/MODULE.bazel": "74da910d77fbd42847917c0603a5c78ce7d8085d28a3fb9a98c56bd070238a10",
+    "https://bcr.bazel.build/modules/boost.intrusive/1.83.0.bcr.1/source.json": "dbeb235ffc10db2e0c553e21f266bdb32b3c82ef93d2cbfbbe78fa6e8fc760b5",
+    "https://bcr.bazel.build/modules/boost.io/1.83.0.bcr.1/MODULE.bazel": "ce3b42ee33880f7250263a158c51b6c33c38ccbff754b78703c8af3f842e1cb1",
+    "https://bcr.bazel.build/modules/boost.io/1.83.0.bcr.1/source.json": "94e74cc68d9ba9821aa35c207a943c8140856fbc494b3524d3729f0caa9e97db",
+    "https://bcr.bazel.build/modules/boost.iterator/1.83.0.bcr.1/MODULE.bazel": "6ac7783146113154a83e841bfa4449105718006378edff7fbfc53aeddf00812b",
+    "https://bcr.bazel.build/modules/boost.iterator/1.83.0.bcr.1/source.json": "16e10bfe39dd3096147160668219e7a9bb8a42bbce5bd6a8a9bfcb9c428f7912",
+    "https://bcr.bazel.build/modules/boost.lexical_cast/1.83.0.bcr.1/MODULE.bazel": "80f23d54f238b4dc9ae7e408621d1358af93617880675dea6a5338b690642841",
+    "https://bcr.bazel.build/modules/boost.lexical_cast/1.83.0.bcr.1/source.json": "e016aee7804f47d861b3ad9ea045d79ef861b0f3101c8d0ceb33e73e98e7f620",
+    "https://bcr.bazel.build/modules/boost.move/1.83.0.bcr.1/MODULE.bazel": "e901ceb363762eb989a7a53418fe7ce2acf8f542a413109105184a4e22e38096",
+    "https://bcr.bazel.build/modules/boost.move/1.83.0.bcr.1/source.json": "978a8ff249833ab0764a7c2a83a9bda299960112613f22c1ee3bb3ec97fbddbf",
+    "https://bcr.bazel.build/modules/boost.mp11/1.83.0.bcr.1/MODULE.bazel": "cf0d62cfca8865a1e1672953bd5b08cf5cb95e3aae819427565606305dd29165",
+    "https://bcr.bazel.build/modules/boost.mp11/1.83.0.bcr.1/source.json": "554cee46c279651fc3ffca71d947e8b99cb26bd87661debe7946eb21b61031f7",
+    "https://bcr.bazel.build/modules/boost.mpl/1.83.0.bcr.1/MODULE.bazel": "9cd97b224f9c1d8ffefdf48a7163767ca3968fbdfbc76f057caefbb4054be33e",
+    "https://bcr.bazel.build/modules/boost.mpl/1.83.0.bcr.1/source.json": "2ad7f4a254613fe2c0722d6127d9b366dbd19dcd8e44ad23f3ff66bf48163019",
+    "https://bcr.bazel.build/modules/boost.numeric_conversion/1.83.0.bcr.1/MODULE.bazel": "1920d71f656a0433947579a86c22e0dd897816eadee3ae20d5c51dab9505deb3",
+    "https://bcr.bazel.build/modules/boost.numeric_conversion/1.83.0.bcr.1/source.json": "fc35a1dbb8810812f05fa54667f0edeac142f5fc144f9426236694a1d01e875c",
+    "https://bcr.bazel.build/modules/boost.optional/1.83.0.bcr.1/MODULE.bazel": "971e786a19e31dfbd8d311dff3bbffc7c1e16f348e019dfca50620fd9c475092",
+    "https://bcr.bazel.build/modules/boost.optional/1.83.0.bcr.1/source.json": "486e1173f8b24120078f072f434a79fb3aa8c6b0dafbc19c56b7780ea2336595",
+    "https://bcr.bazel.build/modules/boost.pool/1.83.0.bcr.1/MODULE.bazel": "7b7cae959d31e55cfdead4122cddf2ec84d7f3a8f0cf5cbc8d8176d226a1e83a",
+    "https://bcr.bazel.build/modules/boost.pool/1.83.0.bcr.1/source.json": "030c265079a757f423cb4fa86aff594ea3e20f3187e4a8a3a68a613d0eebeff4",
+    "https://bcr.bazel.build/modules/boost.predef/1.83.0.bcr.1/MODULE.bazel": "0dd34241f892423a9dcd20e1256b6a1c787d60849e9576c724a71607ad8a1955",
+    "https://bcr.bazel.build/modules/boost.predef/1.83.0.bcr.1/source.json": "deb64fec0911e7a5d38d8517ecdd470b0b3983506662e01f63f8925688c05c01",
+    "https://bcr.bazel.build/modules/boost.preprocessor/1.83.0.bcr.1/MODULE.bazel": "edb9fb7900ea7002cbefffd97302b071d7cbd8f948b51c7b1a75043bd2985eba",
+    "https://bcr.bazel.build/modules/boost.preprocessor/1.83.0.bcr.1/source.json": "69dc4f6fc76305c21c4a651c94ccfdc8a76d8fbae1151e7c1d1a4599dffc0f03",
+    "https://bcr.bazel.build/modules/boost.range/1.83.0.bcr.1/MODULE.bazel": "136d623462d1d5c7cf79df83b5ce17a8582a92abb116da9d88c5e5594e5a7d92",
+    "https://bcr.bazel.build/modules/boost.range/1.83.0.bcr.1/source.json": "f99062101034f19d9bf2bef3e07cc99bf192640b72560663227e5375efd1e144",
+    "https://bcr.bazel.build/modules/boost.ratio/1.83.0.bcr.1/MODULE.bazel": "3ad15c17bd4dbe71910bb413ac19523e41688f6957103b68bb4d02ac20af567c",
+    "https://bcr.bazel.build/modules/boost.ratio/1.83.0.bcr.1/source.json": "eb58a64870c8c06383748081107e092512f9e781407e28b6cfcf648aa74c8fc8",
+    "https://bcr.bazel.build/modules/boost.rational/1.83.0.bcr.1/MODULE.bazel": "cb0953fb163d4b42c67b762896a357c9ae45a59f2fef5ff25f0dc2f0127710a4",
+    "https://bcr.bazel.build/modules/boost.rational/1.83.0.bcr.1/source.json": "79bfbaf9da65bd765fa4b47e1ac0a914b17151120e6a29286976fa7c5b92eb60",
+    "https://bcr.bazel.build/modules/boost.regex/1.83.0.bcr.1/MODULE.bazel": "5e2c235ea0bdbd8fa942f429ed8aefa1ad3e1471993a17a7b82c1f127dbcb3a2",
+    "https://bcr.bazel.build/modules/boost.regex/1.83.0.bcr.1/source.json": "1d5fda14ae73d5f12ced3c8731006f28b54bdaf75da35f6cc06c2b57b724d011",
+    "https://bcr.bazel.build/modules/boost.smart_ptr/1.83.0.bcr.1/MODULE.bazel": "5652293a4b393e5a56ef4113e0f41b6121d22a0d8f7ccd3e27c4042b947683e3",
+    "https://bcr.bazel.build/modules/boost.smart_ptr/1.83.0.bcr.1/source.json": "1b1b6b549073ef6b1bdbd9898490f73ddb6324774d441cd24d6d1181d4bc75f4",
+    "https://bcr.bazel.build/modules/boost.static_assert/1.83.0.bcr.1/MODULE.bazel": "2b605adc483c6241865f1e862437331bc6f56c0d376769908b70ba18d3da1f07",
+    "https://bcr.bazel.build/modules/boost.static_assert/1.83.0.bcr.1/source.json": "a0eac8de976fff7efdf498933d7494df30eff471c51c1edfc822007069697ed7",
+    "https://bcr.bazel.build/modules/boost.system/1.83.0.bcr.1/MODULE.bazel": "5f905d0fbb1ce99231f3fa278b2e5999aa7395c6393ac42d479ae21824adf03f",
+    "https://bcr.bazel.build/modules/boost.system/1.83.0.bcr.1/source.json": "0676ab63c01c5ddf731a5cf54667ffc6560e9fb52401a2a9ac6a10c5a9909019",
+    "https://bcr.bazel.build/modules/boost.throw_exception/1.83.0.bcr.1/MODULE.bazel": "b757c832f5f5f818d87c9eaa993d3eb211554197321c3edf641e2c8821cf19c2",
+    "https://bcr.bazel.build/modules/boost.throw_exception/1.83.0.bcr.1/source.json": "c752d584840e9183141f9d53f07f2051016c16771a973cdd1487f9585980c2e5",
+    "https://bcr.bazel.build/modules/boost.tokenizer/1.83.0.bcr.1/MODULE.bazel": "486e2806e0682f12d1ea8f97013b65719eaefb3078f347b3a3518cd6f7b2c837",
+    "https://bcr.bazel.build/modules/boost.tokenizer/1.83.0.bcr.1/source.json": "c4f3923d7b4e094cd70cff03d59b556653b78cc1a5dc3652e88609df566a9839",
+    "https://bcr.bazel.build/modules/boost.tuple/1.83.0.bcr.1/MODULE.bazel": "1d540b5efd3b65eeabd3621e5187a799e21bfa9ffc6afd7d4ad307cc4a27a6d4",
+    "https://bcr.bazel.build/modules/boost.tuple/1.83.0.bcr.1/source.json": "7aa33ec2aaae45605049ea0ec1c1de9517a1e1278a22d0a521521d4023f9ad87",
+    "https://bcr.bazel.build/modules/boost.type_traits/1.83.0.bcr.1/MODULE.bazel": "89bbca2de42dc79ffcabb3625103771e4b04566eee6b8cfe7fa807d133d053f7",
+    "https://bcr.bazel.build/modules/boost.type_traits/1.83.0.bcr.1/source.json": "051e4969558e4a356c5059f4a4f41335b3968b91fa8ae1772898676ec95ded56",
+    "https://bcr.bazel.build/modules/boost.typeof/1.83.0.bcr.1/MODULE.bazel": "6b3dd6cfe993a8ccf98bce79506be41ec893c65013d7a5be9177c8a185e86d87",
+    "https://bcr.bazel.build/modules/boost.typeof/1.83.0.bcr.1/source.json": "0ec40beca58de1b17c1ddb18c357ef525977e4312540122b3b91cbe485556f17",
+    "https://bcr.bazel.build/modules/boost.unordered/1.83.0.bcr.1/MODULE.bazel": "c9be557708b3390921d02880774fd76299e5b9523f045d8b09b067777bf47bb4",
+    "https://bcr.bazel.build/modules/boost.unordered/1.83.0.bcr.1/source.json": "1f64a4e380153091443c069cdfebaa2102faa22673a5bf2c3690bfe67eaf4685",
+    "https://bcr.bazel.build/modules/boost.utility/1.83.0.bcr.1/MODULE.bazel": "1346dc27d6c8b7ced10896224ed3e406adac3fd79c8450d78c291228f1b9075d",
+    "https://bcr.bazel.build/modules/boost.utility/1.83.0.bcr.1/source.json": "15636369b5452784e7bd04f7ae52c751e591dd4ebb852688fccc66234d452929",
+    "https://bcr.bazel.build/modules/boost.variant2/1.83.0.bcr.1/MODULE.bazel": "c60baa3b8923712a156197ffaf5cf9972bf35e44d00a90f7019a06761f391d3e",
+    "https://bcr.bazel.build/modules/boost.variant2/1.83.0.bcr.1/source.json": "041f94707bd509bc1f93782ccb6c38d491ac0dca25d26011f2047639d3a2bcd1",
+    "https://bcr.bazel.build/modules/boost.winapi/1.83.0.bcr.1/MODULE.bazel": "faf78b50dae672a38b77db545a460428cfe47a8d79466455ef397d76037e9e40",
+    "https://bcr.bazel.build/modules/boost.winapi/1.83.0.bcr.1/source.json": "0957b4dabe425e7f9d8d02db63969b808a280c11388ad7814e50b0779ae592cc",
+    "https://bcr.bazel.build/modules/boringssl/0.0.0-20240530-2db0eb3/MODULE.bazel": "d0405b762c5e87cd445b7015f2b8da5400ef9a8dbca0bfefa6c1cea79d528a97",
+    "https://bcr.bazel.build/modules/boringssl/0.20240913.0/MODULE.bazel": "fcaa7503a5213290831a91ed1eb538551cf11ac0bc3a6ad92d0fef92c5bd25fb",
+    "https://bcr.bazel.build/modules/boringssl/0.20241024.0/MODULE.bazel": "b540cff73d948cb79cb0bc108d7cef391d2098a25adabfda5043e4ef548dbc87",
+    "https://bcr.bazel.build/modules/boringssl/0.20250212.0/MODULE.bazel": "33bdb2e81d33378750d2caf62f52dec336d83e7dac2e8e1840453736e823f4ef",
+    "https://bcr.bazel.build/modules/boringssl/0.20250212.0/source.json": "982bb27925e52a8af5c047bb137510a6d8061a5c8ecbd0deeb0173aefd54d580",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/MODULE.bazel": "2e8dd40ede9c454042645fd8d8d0cd1527966aa5c919de86661e62953cd73d84",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/source.json": "c9028a501d2db85793a6996205c8de120944f50a0d570438fcae0457a5f9d1f8",
+    "https://bcr.bazel.build/modules/curl/8.8.0.bcr.2/MODULE.bazel": "9bd3a98e18919f51008d9999f14e6d918ddabc4e623bf0b70bc470daf2731bec",
+    "https://bcr.bazel.build/modules/curl/8.8.0.bcr.2/source.json": "1a40c802eff93a3106bb68e18faec596e0dcb7773b2994965d0438de52376778",
+    "https://bcr.bazel.build/modules/eigen/3.4.0.bcr.2/MODULE.bazel": "23fd0e097bfc0952632b854377b79ccee80fd473db6d55e0e26fce80a919f0c5",
+    "https://bcr.bazel.build/modules/eigen/3.4.0.bcr.2/source.json": "517be47a2886a9fd0918674f381a6ff1b9db6468af36f062e0c03b2f4a419ef6",
+    "https://bcr.bazel.build/modules/fmt/10.2.1.bcr.1/MODULE.bazel": "ab0513a81ae5bf2606b47da41662afdad0ffec0641106fa524ff77d421b28531",
+    "https://bcr.bazel.build/modules/fmt/11.1.4/MODULE.bazel": "514019a3848f2764cc7aba3f388cd2f54d5d8c6249ddd33a143f37da9ebe66a4",
+    "https://bcr.bazel.build/modules/fmt/11.1.4/source.json": "94756c79709d889323996650a371bbad133a0628e54de3cae229e99275abfc9e",
     "https://bcr.bazel.build/modules/google_benchmark/1.8.2/MODULE.bazel": "a70cf1bba851000ba93b58ae2f6d76490a9feb74192e57ab8e8ff13c34ec50cb",
     "https://bcr.bazel.build/modules/googletest/1.11.0/MODULE.bazel": "3a83f095183f66345ca86aa13c58b59f9f94a2f81999c093d4eeaa2d262d12f4",
     "https://bcr.bazel.build/modules/googletest/1.14.0.bcr.1/MODULE.bazel": "22c31a561553727960057361aa33bf20fb2e98584bc4fec007906e27053f80c6",
-    "https://bcr.bazel.build/modules/googletest/1.14.0.bcr.1/source.json": "41e9e129f80d8c8bf103a7acc337b76e54fad1214ac0a7084bf24f4cd924b8b4",
     "https://bcr.bazel.build/modules/googletest/1.14.0/MODULE.bazel": "cfbcbf3e6eac06ef9d85900f64424708cc08687d1b527f0ef65aa7517af8118f",
+    "https://bcr.bazel.build/modules/googletest/1.15.2/MODULE.bazel": "6de1edc1d26cafb0ea1a6ab3f4d4192d91a312fd2d360b63adaa213cd00b2108",
+    "https://bcr.bazel.build/modules/googletest/1.16.0/MODULE.bazel": "a175623c69e94fca4ca7acbc12031e637b0c489318cd4805606981d4d7adb34a",
+    "https://bcr.bazel.build/modules/googletest/1.16.0/source.json": "dd011b202542efcd4c0e3df34b1558d41598c6f287846728315ded5f7984b77a",
     "https://bcr.bazel.build/modules/jsoncpp/1.9.5/MODULE.bazel": "31271aedc59e815656f5736f282bb7509a97c7ecb43e927ac1a37966e0578075",
     "https://bcr.bazel.build/modules/jsoncpp/1.9.5/source.json": "4108ee5085dd2885a341c7fab149429db457b3169b86eb081fa245eadf69169d",
     "https://bcr.bazel.build/modules/libpfm/4.11.0/MODULE.bazel": "45061ff025b301940f1e30d2c16bea596c25b176c8b6b3087e92615adbd52902",
+    "https://bcr.bazel.build/modules/libyaml/0.2.5/MODULE.bazel": "5da68714162d232e5ae0ebbaf060da9c889f3284cbe8fd6fad5a9a5c821f1505",
+    "https://bcr.bazel.build/modules/libyaml/0.2.5/source.json": "7183dcdb9afe15dceaa545865f13d2ce1f6f9571e40138eeb5dc7daad5feb56e",
+    "https://bcr.bazel.build/modules/llvm-project/17.0.3.bcr.2/MODULE.bazel": "af2b22e8f1aa2f8386eab55b7f87e45653efb8ab58715f498bcf68e61092e637",
+    "https://bcr.bazel.build/modules/llvm-project/17.0.3.bcr.2/source.json": "02e38f750332990f065cd0dfa4ffb52697dd72bbd5defcfb6d35cb8d7728ba5a",
+    "https://bcr.bazel.build/modules/lz4/1.9.4/MODULE.bazel": "e3d307b1d354d70f6c809167eafecf5d622c3f27e3971ab7273410f429c7f83a",
+    "https://bcr.bazel.build/modules/lz4/1.9.4/source.json": "233f0bdfc21f254e3dda14683ddc487ca68c6a3a83b7d5db904c503f85bd089b",
+    "https://bcr.bazel.build/modules/mbedtls/3.6.0/MODULE.bazel": "8e380e4698107c5f8766264d4df92e36766248447858db28187151d884995a09",
+    "https://bcr.bazel.build/modules/mbedtls/3.6.0/source.json": "1dbe7eb5258050afcc3806b9d43050f71c6f539ce0175535c670df606790b30c",
+    "https://bcr.bazel.build/modules/nlohmann_json/3.11.3.bcr.1/MODULE.bazel": "83bbe365b1eb640ef903df2240f11e7df8f70563199bc17085816033bc36da89",
+    "https://bcr.bazel.build/modules/nlohmann_json/3.11.3.bcr.1/source.json": "7b0b57c1a789dd0b81b8e6f639f36f96a6f4534c2f2ed4430118af6769b00cdf",
     "https://bcr.bazel.build/modules/platforms/0.0.10/MODULE.bazel": "8cb8efaf200bdeb2150d93e162c40f388529a25852b332cec879373771e48ed5",
     "https://bcr.bazel.build/modules/platforms/0.0.11/MODULE.bazel": "0daefc49732e227caa8bfa834d65dc52e8cc18a2faf80df25e8caea151a9413f",
     "https://bcr.bazel.build/modules/platforms/0.0.11/source.json": "f7e188b79ebedebfe75e9e1d098b8845226c7992b307e28e1496f23112e8fc29",
@@ -59,9 +195,14 @@
     "https://bcr.bazel.build/modules/protobuf/3.19.0/MODULE.bazel": "6b5fbb433f760a99a22b18b6850ed5784ef0e9928a72668b66e4d7ccd47db9b0",
     "https://bcr.bazel.build/modules/protobuf/3.19.6/MODULE.bazel": "9233edc5e1f2ee276a60de3eaa47ac4132302ef9643238f23128fea53ea12858",
     "https://bcr.bazel.build/modules/pybind11_bazel/2.11.1/MODULE.bazel": "88af1c246226d87e65be78ed49ecd1e6f5e98648558c14ce99176da041dc378e",
-    "https://bcr.bazel.build/modules/pybind11_bazel/2.11.1/source.json": "be4789e951dd5301282729fe3d4938995dc4c1a81c2ff150afc9f1b0504c6022",
+    "https://bcr.bazel.build/modules/pybind11_bazel/2.12.0/MODULE.bazel": "e6f4c20442eaa7c90d7190d8dc539d0ab422f95c65a57cc59562170c58ae3d34",
+    "https://bcr.bazel.build/modules/pybind11_bazel/2.13.6/MODULE.bazel": "2d746fda559464b253b2b2e6073cb51643a2ac79009ca02100ebbc44b4548656",
+    "https://bcr.bazel.build/modules/pybind11_bazel/2.13.6/source.json": "6aa0703de8efb20cc897bbdbeb928582ee7beaf278bcd001ac253e1605bddfae",
     "https://bcr.bazel.build/modules/re2/2023-09-01/MODULE.bazel": "cb3d511531b16cfc78a225a9e2136007a48cf8a677e4264baeab57fe78a80206",
-    "https://bcr.bazel.build/modules/re2/2023-09-01/source.json": "e044ce89c2883cd957a2969a43e79f7752f9656f6b20050b62f90ede21ec6eb4",
+    "https://bcr.bazel.build/modules/re2/2024-07-02/MODULE.bazel": "0eadc4395959969297cbcf31a249ff457f2f1d456228c67719480205aa306daa",
+    "https://bcr.bazel.build/modules/re2/2024-07-02/source.json": "547d0111a9d4f362db32196fef805abbf3676e8d6afbe44d395d87816c1130ca",
+    "https://bcr.bazel.build/modules/readerwriterqueue/1.0.6/MODULE.bazel": "81772a19ba49924294a3aa75463f4d51134cb99e5fedd40d415ba4b2fb850aad",
+    "https://bcr.bazel.build/modules/readerwriterqueue/1.0.6/source.json": "82db2a6fe4d2d53262a2188c4148e59e788c080361b60525a164c4c34962f317",
     "https://bcr.bazel.build/modules/rules_android/0.1.1/MODULE.bazel": "48809ab0091b07ad0182defb787c4c5328bd3a278938415c00a7b69b50c4d3a8",
     "https://bcr.bazel.build/modules/rules_android/0.1.1/source.json": "e6986b41626ee10bdc864937ffb6d6bf275bb5b9c65120e6137d56e6331f089e",
     "https://bcr.bazel.build/modules/rules_cc/0.0.1/MODULE.bazel": "cb2aa0747f84c6c3a78dad4e2049c154f08ab9d166b1273835a8174940365647",
@@ -69,11 +210,15 @@
     "https://bcr.bazel.build/modules/rules_cc/0.0.13/MODULE.bazel": "0e8529ed7b323dad0775ff924d2ae5af7640b23553dfcd4d34344c7e7a867191",
     "https://bcr.bazel.build/modules/rules_cc/0.0.15/MODULE.bazel": "6704c35f7b4a72502ee81f61bf88706b54f06b3cbe5558ac17e2e14666cd5dcc",
     "https://bcr.bazel.build/modules/rules_cc/0.0.16/MODULE.bazel": "7661303b8fc1b4d7f532e54e9d6565771fea666fbdf839e0a86affcd02defe87",
-    "https://bcr.bazel.build/modules/rules_cc/0.0.16/source.json": "227e83737046aa4f50015da48e98e0d8ab42fd0ec74d8d653b6cc9f9a357f200",
+    "https://bcr.bazel.build/modules/rules_cc/0.0.17/MODULE.bazel": "2ae1d8f4238ec67d7185d8861cb0a2cdf4bc608697c331b95bf990e69b62e64a",
     "https://bcr.bazel.build/modules/rules_cc/0.0.2/MODULE.bazel": "6915987c90970493ab97393024c156ea8fb9f3bea953b2f3ec05c34f19b5695c",
     "https://bcr.bazel.build/modules/rules_cc/0.0.6/MODULE.bazel": "abf360251023dfe3efcef65ab9d56beefa8394d4176dd29529750e1c57eaa33f",
     "https://bcr.bazel.build/modules/rules_cc/0.0.8/MODULE.bazel": "964c85c82cfeb6f3855e6a07054fdb159aced38e99a5eecf7bce9d53990afa3e",
     "https://bcr.bazel.build/modules/rules_cc/0.0.9/MODULE.bazel": "836e76439f354b89afe6a911a7adf59a6b2518fafb174483ad78a2a2fde7b1c5",
+    "https://bcr.bazel.build/modules/rules_cc/0.1.1/MODULE.bazel": "2f0222a6f229f0bf44cd711dc13c858dad98c62d52bd51d8fc3a764a83125513",
+    "https://bcr.bazel.build/modules/rules_cc/0.1.1/source.json": "d61627377bd7dd1da4652063e368d9366fc9a73920bfa396798ad92172cf645c",
+    "https://bcr.bazel.build/modules/rules_foreign_cc/0.13.0/MODULE.bazel": "5a9419cd02f6c2328eafd5234be8bef4d53357af80873392f5907f73f348c61b",
+    "https://bcr.bazel.build/modules/rules_foreign_cc/0.13.0/source.json": "e3495e083f232b3de375b77d2b0b01c18b6c2d1fc7337e451e8cd8e0c3e43dc6",
     "https://bcr.bazel.build/modules/rules_foreign_cc/0.9.0/MODULE.bazel": "c9e8c682bf75b0e7c704166d79b599f93b72cfca5ad7477df596947891feeef6",
     "https://bcr.bazel.build/modules/rules_fuzzing/0.5.2/MODULE.bazel": "40c97d1144356f52905566c55811f13b299453a14ac7769dfba2ac38192337a8",
     "https://bcr.bazel.build/modules/rules_fuzzing/0.5.2/source.json": "c8b1e2c717646f1702290959a3302a178fb639d987ab61d548105019f11e527e",
@@ -109,26 +254,48 @@
     "https://bcr.bazel.build/modules/rules_proto/6.0.2/source.json": "17a2e195f56cb28d6bbf763e49973d13890487c6945311ed141e196fb660426d",
     "https://bcr.bazel.build/modules/rules_python/1.3.0/MODULE.bazel": "8361d57eafb67c09b75bf4bbe6be360e1b8f4f18118ab48037f2bd50aa2ccb13",
     "https://bcr.bazel.build/modules/rules_python/1.3.0/source.json": "25932f917cd279c7baefa6cb1d3fa8750a7a29de522024449b19af6eab51f4a0",
+    "https://bcr.bazel.build/modules/rules_rust/0.59.2/MODULE.bazel": "49f5bf030ff5254e61cd22c9c73da85b1089306493a153d78be285951bf131a2",
+    "https://bcr.bazel.build/modules/rules_rust/0.59.2/source.json": "6575677d9a3008a7cbd8b3fbc94aeb78c893c24a4543fece9540f7c26e8b8df1",
+    "https://bcr.bazel.build/modules/rules_rust_bindgen/0.59.2/MODULE.bazel": "5313f37cf7876942505e7ed847ff2be8b7a6350406f8e3b68e9097a6c8e8af16",
+    "https://bcr.bazel.build/modules/rules_rust_bindgen/0.59.2/source.json": "d346d5d6b8dad98a63a63fe831f19e4b7f4b163fa4e3bca95c92d147ba335aa4",
     "https://bcr.bazel.build/modules/rules_shell/0.2.0/MODULE.bazel": "fda8a652ab3c7d8fee214de05e7a9916d8b28082234e8d2c0094505c5268ed3c",
-    "https://bcr.bazel.build/modules/rules_shell/0.2.0/source.json": "7f27af3c28037d9701487c4744b5448d26537cc66cdef0d8df7ae85411f8de95",
+    "https://bcr.bazel.build/modules/rules_shell/0.3.0/MODULE.bazel": "de4402cd12f4cc8fda2354fce179fdb068c0b9ca1ec2d2b17b3e21b24c1a937b",
+    "https://bcr.bazel.build/modules/rules_shell/0.4.0/MODULE.bazel": "0f8f11bb3cd11755f0b48c1de0bbcf62b4b34421023aa41a2fc74ef68d9584f0",
+    "https://bcr.bazel.build/modules/rules_shell/0.4.0/source.json": "1d7fa7f941cd41dc2704ba5b4edc2e2230eea1cc600d80bd2b65838204c50b95",
+    "https://bcr.bazel.build/modules/spdlog/1.15.2/MODULE.bazel": "d38d502b0090c41317a57d3c891300d18f12cc2014027c0dbb0972c60efccbf9",
+    "https://bcr.bazel.build/modules/spdlog/1.15.2/source.json": "8abd24907a9771254616804b40979c538c66165f0e3ada4028b70c64db703398",
+    "https://bcr.bazel.build/modules/sqlite3/3.42.0.bcr.1/MODULE.bazel": "e58096b04bc268d13f6b9047c385b7d38ac62f4d1ebd1ed3d0a852378c10b05a",
+    "https://bcr.bazel.build/modules/sqlite3/3.42.0.bcr.1/source.json": "9abf49bde81eca775c4193d0a5fd2b08bb577705fdb474f9a8a28643b7d6216d",
     "https://bcr.bazel.build/modules/stardoc/0.5.1/MODULE.bazel": "1a05d92974d0c122f5ccf09291442580317cdd859f07a8655f1db9a60374f9f8",
     "https://bcr.bazel.build/modules/stardoc/0.5.3/MODULE.bazel": "c7f6948dae6999bf0db32c1858ae345f112cacf98f174c7a8bb707e41b974f1c",
     "https://bcr.bazel.build/modules/stardoc/0.7.0/MODULE.bazel": "05e3d6d30c099b6770e97da986c53bd31844d7f13d41412480ea265ac9e8079c",
     "https://bcr.bazel.build/modules/stardoc/0.7.2/MODULE.bazel": "fc152419aa2ea0f51c29583fab1e8c99ddefd5b3778421845606ee628629e0e5",
     "https://bcr.bazel.build/modules/stardoc/0.7.2/source.json": "58b029e5e901d6802967754adf0a9056747e8176f017cfe3607c0851f4d42216",
+    "https://bcr.bazel.build/modules/tinyxml/2.6.2/MODULE.bazel": "81339478872aa25ad61cc3a039177d7665eb7c743b0d802b87c1869f81e891b4",
+    "https://bcr.bazel.build/modules/tinyxml/2.6.2/source.json": "94ee90008aa5a459d19459006b0b0ac9417fd6ab97bebe3059cdb87c3d25a582",
+    "https://bcr.bazel.build/modules/tinyxml2/10.0.0/MODULE.bazel": "7c2c2fd7f9bd767e5c98eeb46385dba08c81be321d885ed077da9383e85aebc7",
+    "https://bcr.bazel.build/modules/tinyxml2/10.0.0/source.json": "e6f10ec3ed2d93b165a6556ec0cca75f3f1f1b508494c618ed398d38919947a0",
     "https://bcr.bazel.build/modules/upb/0.0.0-20220923-a547704/MODULE.bazel": "7298990c00040a0e2f121f6c32544bab27d4452f80d9ce51349b1a28f3005c43",
+    "https://bcr.bazel.build/modules/websocketpp/0.8.2.bcr.3/MODULE.bazel": "e3e56c3c4857b273c124d54fb987fa96bc76d88e36ad4924d8740a9a2c07d75b",
+    "https://bcr.bazel.build/modules/websocketpp/0.8.2.bcr.3/source.json": "249be9379abfb8011d4e35d25db2726881006fb01cb0fbd594ca2338c0e028c2",
+    "https://bcr.bazel.build/modules/yaml-cpp/0.8.0/MODULE.bazel": "879443fbbf128457a187bea6f278d05789f3fc465bb22c2e0fe7fdb52e45eef0",
+    "https://bcr.bazel.build/modules/yaml-cpp/0.8.0/source.json": "8571372713f5030dbe517fb0cec549cef82aa5b76b4a178f902b95673ab5841c",
     "https://bcr.bazel.build/modules/zlib/1.2.11/MODULE.bazel": "07b389abc85fdbca459b69e2ec656ae5622873af3f845e1c9d80fe179f3effa0",
     "https://bcr.bazel.build/modules/zlib/1.2.12/MODULE.bazel": "3b1a8834ada2a883674be8cbd36ede1b6ec481477ada359cd2d3ddc562340b27",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.3/MODULE.bazel": "af322bc08976524477c79d1e45e241b6efbeb918c497e8840b8ab116802dda79",
-    "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.3/source.json": "2be409ac3c7601245958cd4fcdff4288be79ed23bd690b4b951f500d54ee6e7d",
-    "https://bcr.bazel.build/modules/zlib/1.3.1/MODULE.bazel": "751c9940dcfe869f5f7274e1295422a34623555916eb98c174c1e945594bf198"
+    "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.5/MODULE.bazel": "eec517b5bbe5492629466e11dae908d043364302283de25581e3eb944326c4ca",
+    "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.5/source.json": "22bc55c47af97246cfc093d0acf683a7869377de362b5d1c552c2c2e16b7a806",
+    "https://bcr.bazel.build/modules/zlib/1.3.1/MODULE.bazel": "751c9940dcfe869f5f7274e1295422a34623555916eb98c174c1e945594bf198",
+    "https://bcr.bazel.build/modules/zlib/1.3/MODULE.bazel": "6a9c02f19a24dcedb05572b2381446e27c272cd383aed11d41d99da9e3167a72",
+    "https://bcr.bazel.build/modules/zstd/1.5.6/MODULE.bazel": "471ebe7d3cdd8c6469390fcf623eb4779ff55fbee0a87f1dc57a1def468b96d4",
+    "https://bcr.bazel.build/modules/zstd/1.5.6/source.json": "02010c3333fc89b44fe861db049968decb6e688411f7f9d4f6791d74f9adfb51"
   },
   "selectedYankedVersions": {},
   "moduleExtensions": {
     "@@apple_support~//crosstool:setup.bzl%apple_cc_configure_extension": {
       "general": {
-        "bzlTransitiveDigest": "PjIds3feoYE8SGbbIq2SFTZy3zmxeO2tQevJZNDo7iY=",
-        "usagesDigest": "+hz7IHWN6A1oVJJWNDB6yZRG+RYhF76wAYItpAeIUIg=",
+        "bzlTransitiveDigest": "7ii+gFxWSxHhQPrBxfMEHhtrGvHmBTvsh+KOyGunP/s=",
+        "usagesDigest": "R8xslr59tZnVLqBbEpbunVi3NfM8lkJZstFJkVyW4qk=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -149,6 +316,1041 @@
             "apple_support~",
             "bazel_tools",
             "bazel_tools"
+          ]
+        ]
+      }
+    },
+    "@@com_github_mvukov_rules_ros2~//ros2:extensions.bzl%non_module_deps": {
+      "general": {
+        "bzlTransitiveDigest": "2YlsViHoZJH1LG34kSYX9fdFbVeHPO6N7QhY0Uw0J3w=",
+        "usagesDigest": "yXDx85bwdYi47rHdUyCb9+1kphX3n38BU5sPImzu8aE=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "ros2": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:ros2.BUILD.bazel",
+              "sha256": "67757489197ea587d1832cccc2318f38468a760dfcf7627cffd78e2a4e25ac4a",
+              "strip_prefix": "ros2-release-humble-20241205",
+              "urls": [
+                "https://github.com/ros2/ros2/archive/refs/tags/release-humble-20241205.tar.gz"
+              ]
+            }
+          },
+          "ros2_ament_index": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:ament_index.BUILD.bazel",
+              "sha256": "e66896e255653508cb2bdecd7789f8dd5a03d7d2b4a1dd37445821a5679c447c",
+              "strip_prefix": "ament_index-1.4.0",
+              "url": "https://github.com/ament/ament_index/archive/refs/tags/1.4.0.tar.gz"
+            }
+          },
+          "ros2_class_loader": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:class_loader.BUILD.bazel",
+              "sha256": "a85a99b93fcad7c8d9686672b8e3793200b1da9d8feab7ab3a9962e34ab1f675",
+              "strip_prefix": "class_loader-2.2.0",
+              "url": "https://github.com/ros/class_loader/archive/refs/tags/2.2.0.tar.gz"
+            }
+          },
+          "ros2_common_interfaces": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:common_interfaces.BUILD.bazel",
+              "sha256": "d4aeb9f5aa2d5af9938ac4e32c6b7878586096951036c08f1e46fcacdc577c97",
+              "strip_prefix": "common_interfaces-4.2.4",
+              "url": "https://github.com/ros2/common_interfaces/archive/refs/tags/4.2.4.tar.gz"
+            }
+          },
+          "cyclonedds": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:cyclonedds.BUILD.bazel",
+              "sha256": "ec3ec898c52b02f939a969cd1a276e219420e5e8419b21cea276db35b4821848",
+              "strip_prefix": "cyclonedds-0.10.5",
+              "url": "https://github.com/eclipse-cyclonedds/cyclonedds/archive/refs/tags/0.10.5.tar.gz"
+            }
+          },
+          "ros2_geometry2": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:geometry2.BUILD.bazel",
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:geometry2_fix-use-after-free-bug.patch"
+              ],
+              "sha256": "5c273ff836ab9268c01ad240e0d31aca6765b44c3759fce0e87b700381feddfd",
+              "strip_prefix": "geometry2-0.25.9",
+              "url": "https://github.com/ros2/geometry2/archive/refs/tags/0.25.9.tar.gz"
+            }
+          },
+          "iceoryx": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "strip_prefix": "iceoryx-2.0.5",
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:iceoryx.BUILD.bazel",
+              "sha256": "bf6de70e3edee71223f993a29bff5e61af95ce4871104929d8bd1729f544bafb",
+              "url": "https://github.com/eclipse-iceoryx/iceoryx/archive/refs/tags/v2.0.5.tar.gz"
+            }
+          },
+          "ros2_image_common": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:image_common.BUILD.bazel",
+              "sha256": "0433ed59cb813f14072c83511889d6950af0c223e346cd7ff95916274a3135cd",
+              "strip_prefix": "image_common-3.1.9",
+              "url": "https://github.com/ros-perception/image_common/archive/refs/tags/3.1.9.tar.gz"
+            }
+          },
+          "ros2_kdl_parser": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:kdl_parser.BUILD.bazel",
+              "sha256": "f28da9bd7eaa8995f4b67bc9c8321d7467043aa43e01b918aa239b8b9971bf56",
+              "strip_prefix": "kdl_parser-2.6.4",
+              "url": "https://github.com/ros/kdl_parser/archive/refs/tags/2.6.4.tar.gz"
+            }
+          },
+          "ros2_keyboard_handler": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:keyboard_handler.BUILD.bazel",
+              "sha256": "36e64e9e1927a6026e1b45cafc4c8efd32db274bfab5da0edd273a583f3c73f4",
+              "strip_prefix": "keyboard_handler-0.0.5",
+              "url": "https://github.com/ros-tooling/keyboard_handler/archive/refs/tags/0.0.5.tar.gz"
+            }
+          },
+          "ros2_launch": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:launch.BUILD.bazel",
+              "sha256": "16c29a3774ed13e09195c9f3d58f4199fa0913a324b8e67f3de2a2da676ce4c7",
+              "strip_prefix": "launch-1.0.7",
+              "url": "https://github.com/ros2/launch/archive/refs/tags/1.0.7.tar.gz"
+            }
+          },
+          "ros2_launch_ros": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:launch_ros.BUILD.bazel",
+              "sha256": "fa7f6b4e32260629ea8752a50f3d97650fe79b589255bc6cd20b0f08d0cfc3f1",
+              "strip_prefix": "launch_ros-0.19.8",
+              "url": "https://github.com/ros2/launch_ros/archive/refs/tags/0.19.8.tar.gz"
+            }
+          },
+          "ros2_libstatistics_collector": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:libstatistics_collector.BUILD.bazel",
+              "sha256": "f16eb49c77a37db2b5344a6100d9697b19a55692e36118fb28817089a8d34351",
+              "strip_prefix": "libstatistics_collector-1.3.4",
+              "url": "https://github.com/ros-tooling/libstatistics_collector/archive/refs/tags/1.3.4.tar.gz"
+            }
+          },
+          "ros2_message_filters": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:message_filters.BUILD.bazel",
+              "sha256": "fd64677763d15583a8f5efcdf45dd43548afb3f4e4bf1fb79eed55351d6b983b",
+              "strip_prefix": "message_filters-4.3.5",
+              "url": "https://github.com/ros2/message_filters/archive/refs/tags/4.3.5.tar.gz"
+            }
+          },
+          "osrf_pycommon": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:osrf_pycommon.BUILD.bazel",
+              "sha256": "a5c57a1021d1620cfe4620c4f1611e040de86e7afcce53509e968a4098ce1fa2",
+              "strip_prefix": "osrf_pycommon-2.1.4",
+              "url": "https://github.com/osrf/osrf_pycommon/archive/refs/tags/2.1.4.tar.gz"
+            }
+          },
+          "ros2_pluginlib": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:pluginlib.BUILD.bazel",
+              "sha256": "74188b886f9bbe7e857d21f3bb50b480e7c0e5adab97c10563dc17013600198b",
+              "strip_prefix": "pluginlib-5.1.0",
+              "url": "https://github.com/ros/pluginlib/archive/refs/tags/5.1.0.tar.gz"
+            }
+          },
+          "ros2_rcl": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rcl.BUILD.bazel",
+              "sha256": "81519ac2fff7cd811604514e64f97c85933b7729e090eb60a6278355ed30f13f",
+              "strip_prefix": "rcl-5.3.9",
+              "url": "https://github.com/ros2/rcl/archive/refs/tags/5.3.9.tar.gz",
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:fix-null-allocator-and-racy-condition.-1188.patch"
+              ]
+            }
+          },
+          "ros2_rcl_interfaces": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rcl_interfaces.BUILD.bazel",
+              "sha256": "e267048c9f78aabed4b4be11bb028c8488127587e5065c3b3daff3550df25875",
+              "strip_prefix": "rcl_interfaces-1.2.1",
+              "url": "https://github.com/ros2/rcl_interfaces/archive/refs/tags/1.2.1.tar.gz"
+            }
+          },
+          "ros2_rcl_logging": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rcl_logging.BUILD.bazel",
+              "sha256": "f711a7677cb68c927650e5e9f6bbb5d013dd9ae30736209f9b70f9c6485170f6",
+              "strip_prefix": "rcl_logging-2.3.1",
+              "url": "https://github.com/ros2/rcl_logging/archive/refs/tags/2.3.1.tar.gz"
+            }
+          },
+          "ros2_rclcpp": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rclcpp.BUILD.bazel",
+              "patch_cmds": [
+                "patch"
+              ],
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rclcpp_do-not-allocate-in-signal-handler.patch",
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rclcpp_fix-maybe-uninitialized-warning.patch",
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rclcpp_ts_libs_ownership.patch"
+              ],
+              "sha256": "f2102798b3fd7c11eba2728b35f5aca34add9acc7beb42d0a7e9cfcda12eea3d",
+              "strip_prefix": "rclcpp-16.0.11",
+              "url": "https://github.com/ros2/rclcpp/archive/refs/tags/16.0.11.tar.gz"
+            }
+          },
+          "ros2_rclpy": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rclpy.BUILD.bazel",
+              "sha256": "2dadc5b7f05d3993c487a8e721e612d62e82b96fa7d243ccd84f048b1a123a41",
+              "strip_prefix": "rclpy-3.3.15",
+              "url": "https://github.com/ros2/rclpy/archive/refs/tags/3.3.15.tar.gz"
+            }
+          },
+          "ros2_rcpputils": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rcpputils.BUILD.bazel",
+              "sha256": "40554ef269f40e242175c3f17ae88e77d2bd1768eb4c5a8d0d01b94f59d28948",
+              "strip_prefix": "rcpputils-2.4.4",
+              "url": "https://github.com/ros2/rcpputils/archive/refs/tags/2.4.4.tar.gz"
+            }
+          },
+          "ros2_rcutils": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rcutils.BUILD.bazel",
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rcutils_fix-setting-allocator-to-null.-478.patch"
+              ],
+              "sha256": "b64c3077162bc845a7c410180bc6c78e63e3a7562285b74c0982eee101ea0f28",
+              "strip_prefix": "rcutils-5.1.6",
+              "url": "https://github.com/ros2/rcutils/archive/refs/tags/5.1.6.tar.gz"
+            }
+          },
+          "ros2_resource_retriever": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:resource_retriever.BUILD.bazel",
+              "sha256": "5b4e1411ed955c0562f4609d9025143bf9199d405cbc471484b83f3cbab59162",
+              "strip_prefix": "resource_retriever-3.1.2",
+              "url": "https://github.com/ros/resource_retriever/archive/refs/tags/3.1.2.tar.gz"
+            }
+          },
+          "ros2_rmw": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rmw.BUILD.bazel",
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rmw_initialize-the-null-strucutre-with-static-value.-378.patch"
+              ],
+              "sha256": "fc5eb606c44773a585f6332b33b8fe56c103821cd91e3b95c31a7ab57d38fa0e",
+              "strip_prefix": "rmw-6.1.2",
+              "url": "https://github.com/ros2/rmw/archive/refs/tags/6.1.2.tar.gz"
+            }
+          },
+          "ros2_rmw_cyclonedds": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rmw_cyclonedds.BUILD.bazel",
+              "sha256": "58ef4fe3fd18eb723906df77eb10df1e69222b451e479c6ec85426ba48e16a8a",
+              "strip_prefix": "rmw_cyclonedds-1.3.4",
+              "url": "https://github.com/ros2/rmw_cyclonedds/archive/refs/tags/1.3.4.tar.gz"
+            }
+          },
+          "ros2_rmw_dds_common": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rmw_dds_common.BUILD.bazel",
+              "sha256": "85dd9f586d53b658e5389a388fe3d99a884ba06f567a59f9908ecb96e29132ef",
+              "strip_prefix": "rmw_dds_common-1.6.0",
+              "url": "https://github.com/ros2/rmw_dds_common/archive/refs/tags/1.6.0.tar.gz"
+            }
+          },
+          "ros2_rmw_implementation": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rmw_implementation.BUILD.bazel",
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rmw_implementation_library_path.patch"
+              ],
+              "sha256": "c8a4d8160b27aa290eb90f756b6d656011329411a496feab7fb6cf976f964c93",
+              "strip_prefix": "rmw_implementation-2.8.4",
+              "url": "https://github.com/ros2/rmw_implementation/archive/refs/tags/2.8.4.tar.gz"
+            }
+          },
+          "ros2_robot_state_publisher": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:robot_state_publisher.BUILD.bazel",
+              "sha256": "74235a379ae3bcaf6a6236ddd36feccea6463749057b09f3409bcbced0c047f9",
+              "strip_prefix": "robot_state_publisher-3.0.3",
+              "url": "https://github.com/ros/robot_state_publisher/archive/refs/tags/3.0.3.tar.gz"
+            }
+          },
+          "ros2_tracing": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:ros2_tracing.BUILD.bazel",
+              "sha256": "261672e689e583c90b35d97ccea90ffec649ac55a0f045da46cbc3f69b657c5a",
+              "strip_prefix": "ros2_tracing-4.1.1",
+              "url": "https://github.com/ros2/ros2_tracing/archive/refs/tags/4.1.1.tar.gz"
+            }
+          },
+          "ros2cli": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:ros2cli.BUILD.bazel",
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:ros2cli_replace-netifaces.patch"
+              ],
+              "sha256": "b7a1f137839f426fbcbb45727d8cbee9ee60ee9949502e5daf4288513397cefa",
+              "strip_prefix": "ros2cli-0.18.11",
+              "url": "https://github.com/ros2/ros2cli/archive/refs/tags/0.18.11.tar.gz"
+            }
+          },
+          "ros2_rosbag2": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rosbag2.BUILD.bazel",
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rosbag2_relax_plugin_errors.patch"
+              ],
+              "sha256": "035f4346bdc4bee7b86fed277658bc045b627f5517085fdf3a453285b274ee3c",
+              "strip_prefix": "rosbag2-0.15.13",
+              "url": "https://github.com/ros2/rosbag2/archive/refs/tags/0.15.13.tar.gz"
+            }
+          },
+          "ros2_rosidl": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rosidl.BUILD.bazel",
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rosidl_rm_unnecessary_asserts.patch"
+              ],
+              "sha256": "5ff212dd63e3ea99521f323a871641e40aee3f7f896f377a467c19b94e80d01c",
+              "strip_prefix": "rosidl-3.1.6",
+              "url": "https://github.com/ros2/rosidl/archive/refs/tags/3.1.6.tar.gz"
+            }
+          },
+          "ros2_rosidl_python": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rosidl_python.BUILD.bazel",
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rosidl_python_fix_imports.patch"
+              ],
+              "sha256": "4bb38b6718a0c23aa6d799548c4cfd021ba320294673e75eaf3137821e1234d1",
+              "strip_prefix": "rosidl_python-0.14.4",
+              "url": "https://github.com/ros2/rosidl_python/archive/refs/tags/0.14.4.tar.gz"
+            }
+          },
+          "ros2_rosidl_runtime_py": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rosidl_runtime_py.BUILD.bazel",
+              "sha256": "4006ed60e2544eb390a6231c3e7a676d1605601260417b4b207ef94424a38b26",
+              "strip_prefix": "rosidl_runtime_py-0.9.3",
+              "url": "https://github.com/ros2/rosidl_runtime_py/archive/refs/tags/0.9.3.tar.gz"
+            }
+          },
+          "ros2_rosidl_typesupport": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rosidl_typesupport.BUILD.bazel",
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:rosidl_typesupport_generate_true_c_code.patch"
+              ],
+              "sha256": "b330a869ce00eeb5345488fcd4c894464d5a5e3de601c553a9aaad78d2f5b34c",
+              "strip_prefix": "rosidl_typesupport-2.0.2",
+              "url": "https://github.com/ros2/rosidl_typesupport/archive/refs/tags/2.0.2.tar.gz"
+            }
+          },
+          "ros2_rpyutils": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rpyutils.BUILD.bazel",
+              "sha256": "f87d8c0a2b1a5c28b722f168d7170076e6d82e68c5cb31cff74f15a9fa251fb9",
+              "strip_prefix": "rpyutils-0.2.1",
+              "url": "https://github.com/ros2/rpyutils/archive/refs/tags/0.2.1.tar.gz"
+            }
+          },
+          "ros2_unique_identifier_msgs": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:unique_identifier_msgs.BUILD.bazel",
+              "sha256": "ccedcb7c2b6d927fc4f654cceab299a8cb55082953867754795c6ea2ccdd68a9",
+              "strip_prefix": "unique_identifier_msgs-2.2.1",
+              "url": "https://github.com/ros2/unique_identifier_msgs/archive/refs/tags/2.2.1.tar.gz"
+            }
+          },
+          "ros2_urdfdom": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:urdfdom.BUILD.bazel",
+              "sha256": "1072b2a304295eb299ed70d99914eb2fbf8843c3257e5e51defc5dd457ee6211",
+              "strip_prefix": "urdfdom-3.0.2",
+              "url": "https://github.com/ros/urdfdom/archive/refs/tags/3.0.2.tar.gz"
+            }
+          },
+          "ros2_urdfdom_headers": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:urdfdom_headers.BUILD.bazel",
+              "sha256": "1acd50b976f642de9dc0fde532eb8d77ea09f4de12ebfbd9d88b0cd2891278fd",
+              "strip_prefix": "urdfdom_headers-1.0.6",
+              "url": "https://github.com/ros/urdfdom_headers/archive/refs/tags/1.0.6.tar.gz"
+            }
+          },
+          "ros2_gps_umd": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:gps_umd.BUILD.bazel",
+              "sha256": "64a96f93053d0d59e8fcccceab5408a7d666dd813d4c12df139ef24d916f49ab",
+              "strip_prefix": "gps_umd-fc782811804fafb12ee479a48a2aa2e9ee942e2d",
+              "urls": [
+                "https://github.com/swri-robotics/gps_umd/archive/fc782811804fafb12ee479a48a2aa2e9ee942e2d.tar.gz"
+              ]
+            }
+          },
+          "foxglove_bridge": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:foxglove_bridge.BUILD.bazel",
+              "sha256": "9548f6a53794cfcd6dcae570e6e82aa2c7670d177269ecf612838655d7ba7dcc",
+              "strip_prefix": "ros-foxglove-bridge-0.7.9",
+              "urls": [
+                "https://github.com/foxglove/ros-foxglove-bridge/archive/refs/tags/0.7.9.tar.gz"
+              ]
+            }
+          },
+          "ros2_xacro": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:xacro.BUILD.bazel",
+              "sha256": "a8802a5b48f7479bae1238e822ac4ebb47660221eb9bc40a608e899d60f3f7e4",
+              "strip_prefix": "xacro-2.0.9",
+              "urls": [
+                "https://github.com/ros/xacro/archive/refs/tags/2.0.9.tar.gz"
+              ]
+            }
+          },
+          "orocos_kdl": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:orocos_kdl.BUILD.bazel",
+              "sha256": "22df47f63d91d014af2675029c23da83748575c12a6481fda3ed9235907cc259",
+              "strip_prefix": "orocos_kinematics_dynamics-507de66205e14b12c8c65f25eafc05c4dc66e21e",
+              "urls": [
+                "https://github.com/orocos/orocos_kinematics_dynamics/archive/507de66205e14b12c8c65f25eafc05c4dc66e21e.tar.gz"
+              ]
+            }
+          },
+          "ros2_urdf": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:urdf.BUILD.bazel",
+              "sha256": "a762eb57dc7f60b9ada0240fd7c609f0dc5028ef0b4b65972daf91e009e52cf6",
+              "strip_prefix": "urdf-2.6.0",
+              "urls": [
+                "https://github.com/ros2/urdf/archive/refs/tags/2.6.0.tar.gz"
+              ],
+              "patch_args": [
+                "-p1"
+              ],
+              "patches": [
+                "@@com_github_mvukov_rules_ros2~//repositories/patches:urdf_plugin_loader_fix.patch"
+              ]
+            }
+          },
+          "ros2_diagnostics": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:diagnostics.BUILD.bazel",
+              "sha256": "a723dae7acf0f00ee643c076c7c81299be0254919f29225ec7a89dc14cb8ea6f",
+              "strip_prefix": "diagnostics-9f402787ea2c9b3dd4d7e51a9986810e8a3400ba",
+              "urls": [
+                "https://github.com/ros/diagnostics/archive/9f402787ea2c9b3dd4d7e51a9986810e8a3400ba.zip"
+              ]
+            }
+          },
+          "console_bridge": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:console_bridge.BUILD.bazel",
+              "sha256": "303a619c01a9e14a3c82eb9762b8a428ef5311a6d46353872ab9a904358be4a4",
+              "strip_prefix": "console_bridge-1.0.2",
+              "urls": [
+                "https://github.com/ros/console_bridge/archive/1.0.2.tar.gz"
+              ]
+            }
+          },
+          "mcap": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:mcap.BUILD.bazel",
+              "sha256": "69bcd33e1590201ea180e9e6ba8a22f3e8e7e2283e9ebcbff6a2c7134d8341db",
+              "strip_prefix": "mcap-releases-cpp-v1.4.1/cpp/mcap",
+              "urls": [
+                "https://github.com/foxglove/mcap/archive/refs/tags/releases/cpp/v1.4.1.tar.gz"
+              ]
+            }
+          },
+          "ros2_rcl_logging_syslog": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@com_github_mvukov_rules_ros2~//repositories:rcl_logging_syslog.BUILD.bazel",
+              "sha256": "89039a8d05d1d14ccb85a3d065871d54cce831522bd8aa687e27eb6afd333d07",
+              "strip_prefix": "rcl_logging_syslog-e63257f2d5ca693f286bbcedf2b23720675b7f73",
+              "urls": [
+                "https://github.com/fujitatomoya/rcl_logging_syslog/archive/e63257f2d5ca693f286bbcedf2b23720675b7f73.zip"
+              ]
+            }
+          },
+          "rules_ros2_config_clang": {
+            "bzlFile": "@@com_github_mvukov_rules_ros2~//repositories:clang_configure.bzl",
+            "ruleClassName": "clang_configure",
+            "attributes": {}
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "com_github_mvukov_rules_ros2~",
+            "bazel_tools",
+            "bazel_tools"
+          ],
+          [
+            "com_github_mvukov_rules_ros2~",
+            "com_github_mvukov_rules_ros2",
+            "com_github_mvukov_rules_ros2~"
+          ]
+        ]
+      }
+    },
+    "@@pybind11_bazel~//:internal_configure.bzl%internal_configure_extension": {
+      "general": {
+        "bzlTransitiveDigest": "Jsid+Er+k0JcuPNjK83nTid7q9/fJQeD+ntFHFVkKQg=",
+        "usagesDigest": "DUuT8dSb3bgwrU48sLQN800UBiPo5ER6PxkMUHFDkW4=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "pybind11": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file": "@@pybind11_bazel~//:pybind11-BUILD.bazel",
+              "strip_prefix": "pybind11-2.13.6",
+              "url": "https://github.com/pybind/pybind11/archive/refs/tags/v2.13.6.tar.gz",
+              "integrity": "sha256-4Iy4f0dz2pf6e18DXeh2OrxlbYfVdz5i9toFh9Hw7CA="
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "pybind11_bazel~",
+            "bazel_tools",
+            "bazel_tools"
+          ]
+        ]
+      }
+    },
+    "@@rules_foreign_cc~//foreign_cc:extensions.bzl%tools": {
+      "general": {
+        "bzlTransitiveDigest": "82gl0j2nuUSwR2DhSU4Mejqc+E1d+0SHmnz6jHQGxak=",
+        "usagesDigest": "3PW/Pc9K2FRXrPe+FybHoxEgqzg7eXn9mWy8nzrbxNY=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "rules_foreign_cc_framework_toolchain_linux": {
+            "bzlFile": "@@rules_foreign_cc~//foreign_cc/private/framework:toolchain.bzl",
+            "ruleClassName": "framework_toolchain_repository",
+            "attributes": {
+              "commands_src": "@rules_foreign_cc//foreign_cc/private/framework/toolchains:linux_commands.bzl",
+              "exec_compatible_with": [
+                "@platforms//os:linux"
+              ]
+            }
+          },
+          "rules_foreign_cc_framework_toolchain_freebsd": {
+            "bzlFile": "@@rules_foreign_cc~//foreign_cc/private/framework:toolchain.bzl",
+            "ruleClassName": "framework_toolchain_repository",
+            "attributes": {
+              "commands_src": "@rules_foreign_cc//foreign_cc/private/framework/toolchains:freebsd_commands.bzl",
+              "exec_compatible_with": [
+                "@platforms//os:freebsd"
+              ]
+            }
+          },
+          "rules_foreign_cc_framework_toolchain_windows": {
+            "bzlFile": "@@rules_foreign_cc~//foreign_cc/private/framework:toolchain.bzl",
+            "ruleClassName": "framework_toolchain_repository",
+            "attributes": {
+              "commands_src": "@rules_foreign_cc//foreign_cc/private/framework/toolchains:windows_commands.bzl",
+              "exec_compatible_with": [
+                "@platforms//os:windows"
+              ]
+            }
+          },
+          "rules_foreign_cc_framework_toolchain_macos": {
+            "bzlFile": "@@rules_foreign_cc~//foreign_cc/private/framework:toolchain.bzl",
+            "ruleClassName": "framework_toolchain_repository",
+            "attributes": {
+              "commands_src": "@rules_foreign_cc//foreign_cc/private/framework/toolchains:macos_commands.bzl",
+              "exec_compatible_with": [
+                "@platforms//os:macos"
+              ]
+            }
+          },
+          "rules_foreign_cc_framework_toolchains": {
+            "bzlFile": "@@rules_foreign_cc~//foreign_cc/private/framework:toolchain.bzl",
+            "ruleClassName": "framework_toolchain_repository_hub",
+            "attributes": {}
+          },
+          "cmake_src": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "filegroup(\n    name = \"all_srcs\",\n    srcs = glob([\"**\"]),\n    visibility = [\"//visibility:public\"],\n)\n",
+              "sha256": "f316b40053466f9a416adf981efda41b160ca859e97f6a484b447ea299ff26aa",
+              "strip_prefix": "cmake-3.23.2",
+              "urls": [
+                "https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2.tar.gz"
+              ],
+              "patches": [
+                "@@rules_foreign_cc~//toolchains:cmake-c++11.patch"
+              ]
+            }
+          },
+          "gnumake_src": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "filegroup(\n    name = \"all_srcs\",\n    srcs = glob([\"**\"]),\n    visibility = [\"//visibility:public\"],\n)\n",
+              "sha256": "dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3",
+              "strip_prefix": "make-4.4.1",
+              "urls": [
+                "https://mirror.bazel.build/ftpmirror.gnu.org/gnu/make/make-4.4.1.tar.gz",
+                "http://ftpmirror.gnu.org/gnu/make/make-4.4.1.tar.gz"
+              ]
+            }
+          },
+          "ninja_build_src": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "filegroup(\n    name = \"all_srcs\",\n    srcs = glob([\"**\"]),\n    visibility = [\"//visibility:public\"],\n)\n",
+              "integrity": "sha256-ghvf9Io/aDvEuztvC1/nstZHz2XVKutjMoyRpsbfKFo=",
+              "strip_prefix": "ninja-1.12.1",
+              "urls": [
+                "https://mirror.bazel.build/github.com/ninja-build/ninja/archive/v1.12.1.tar.gz",
+                "https://github.com/ninja-build/ninja/archive/v1.12.1.tar.gz"
+              ]
+            }
+          },
+          "meson_src": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "exports_files([\"meson.py\"])\n\nfilegroup(\n    name = \"runtime\",\n    srcs = glob([\"mesonbuild/**\"]),\n    visibility = [\"//visibility:public\"],\n)\n",
+              "sha256": "567e533adf255de73a2de35049b99923caf872a455af9ce03e01077e0d384bed",
+              "strip_prefix": "meson-1.5.1",
+              "urls": [
+                "https://mirror.bazel.build/github.com/mesonbuild/meson/releases/download/1.5.1/meson-1.5.1.tar.gz",
+                "https://github.com/mesonbuild/meson/releases/download/1.5.1/meson-1.5.1.tar.gz"
+              ]
+            }
+          },
+          "glib_dev": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "\ncc_import(\n    name = \"glib_dev\",\n    hdrs = glob([\"include/**\"]),\n    shared_library = \"@glib_runtime//:bin/libglib-2.0-0.dll\",\n    visibility = [\"//visibility:public\"],\n)\n        ",
+              "sha256": "bdf18506df304d38be98a4b3f18055b8b8cca81beabecad0eece6ce95319c369",
+              "urls": [
+                "https://mirror.bazel.build/download.gnome.org/binaries/win64/glib/2.26/glib-dev_2.26.1-1_win64.zip",
+                "https://download.gnome.org/binaries/win64/glib/2.26/glib-dev_2.26.1-1_win64.zip"
+              ]
+            }
+          },
+          "glib_src": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "\ncc_import(\n    name = \"msvc_hdr\",\n    hdrs = [\"msvc_recommended_pragmas.h\"],\n    visibility = [\"//visibility:public\"],\n)\n        ",
+              "sha256": "bc96f63112823b7d6c9f06572d2ad626ddac7eb452c04d762592197f6e07898e",
+              "strip_prefix": "glib-2.26.1",
+              "urls": [
+                "https://mirror.bazel.build/download.gnome.org/sources/glib/2.26/glib-2.26.1.tar.gz",
+                "https://download.gnome.org/sources/glib/2.26/glib-2.26.1.tar.gz"
+              ]
+            }
+          },
+          "glib_runtime": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "\nexports_files(\n    [\n        \"bin/libgio-2.0-0.dll\",\n        \"bin/libglib-2.0-0.dll\",\n        \"bin/libgmodule-2.0-0.dll\",\n        \"bin/libgobject-2.0-0.dll\",\n        \"bin/libgthread-2.0-0.dll\",\n    ],\n    visibility = [\"//visibility:public\"],\n)\n        ",
+              "sha256": "88d857087e86f16a9be651ee7021880b3f7ba050d34a1ed9f06113b8799cb973",
+              "urls": [
+                "https://mirror.bazel.build/download.gnome.org/binaries/win64/glib/2.26/glib_2.26.1-1_win64.zip",
+                "https://download.gnome.org/binaries/win64/glib/2.26/glib_2.26.1-1_win64.zip"
+              ]
+            }
+          },
+          "gettext_runtime": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "\ncc_import(\n    name = \"gettext_runtime\",\n    shared_library = \"bin/libintl-8.dll\",\n    visibility = [\"//visibility:public\"],\n)\n        ",
+              "sha256": "1f4269c0e021076d60a54e98da6f978a3195013f6de21674ba0edbc339c5b079",
+              "urls": [
+                "https://mirror.bazel.build/download.gnome.org/binaries/win64/dependencies/gettext-runtime_0.18.1.1-2_win64.zip",
+                "https://download.gnome.org/binaries/win64/dependencies/gettext-runtime_0.18.1.1-2_win64.zip"
+              ]
+            }
+          },
+          "pkgconfig_src": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "build_file_content": "filegroup(\n    name = \"all_srcs\",\n    srcs = glob([\"**\"]),\n    visibility = [\"//visibility:public\"],\n)\n",
+              "sha256": "6fc69c01688c9458a57eb9a1664c9aba372ccda420a02bf4429fe610e7e7d591",
+              "strip_prefix": "pkg-config-0.29.2",
+              "patches": [
+                "@@rules_foreign_cc~//toolchains:pkgconfig-detectenv.patch",
+                "@@rules_foreign_cc~//toolchains:pkgconfig-makefile-vc.patch",
+                "@@rules_foreign_cc~//toolchains:pkgconfig-builtin-glib-int-conversion.patch"
+              ],
+              "urls": [
+                "https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz",
+                "https://mirror.bazel.build/pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz"
+              ]
+            }
+          },
+          "bazel_features": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "sha256": "ba1282c1aa1d1fffdcf994ab32131d7c7551a9bc960fbf05f42d55a1b930cbfb",
+              "strip_prefix": "bazel_features-1.15.0",
+              "url": "https://github.com/bazel-contrib/bazel_features/releases/download/v1.15.0/bazel_features-v1.15.0.tar.gz"
+            }
+          },
+          "bazel_skylib": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://mirror.bazel.build/github.com/bazelbuild/bazel-skylib/releases/download/1.2.1/bazel-skylib-1.2.1.tar.gz",
+                "https://github.com/bazelbuild/bazel-skylib/releases/download/1.2.1/bazel-skylib-1.2.1.tar.gz"
+              ],
+              "sha256": "f7be3474d42aae265405a592bb7da8e171919d74c16f082a5457840f06054728"
+            }
+          },
+          "rules_python": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "sha256": "84aec9e21cc56fbc7f1335035a71c850d1b9b5cc6ff497306f84cced9a769841",
+              "strip_prefix": "rules_python-0.23.1",
+              "url": "https://github.com/bazelbuild/rules_python/archive/refs/tags/0.23.1.tar.gz"
+            }
+          },
+          "rules_shell": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "sha256": "d8cd4a3a91fc1dc68d4c7d6b655f09def109f7186437e3f50a9b60ab436a0c53",
+              "strip_prefix": "rules_shell-0.3.0",
+              "url": "https://github.com/bazelbuild/rules_shell/releases/download/v0.3.0/rules_shell-v0.3.0.tar.gz"
+            }
+          },
+          "cmake-3.23.2-linux-aarch64": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-linux-aarch64.tar.gz"
+              ],
+              "sha256": "f2654bf780b53f170bbbec44d8ac67d401d24788e590faa53036a89476efa91e",
+              "strip_prefix": "cmake-3.23.2-linux-aarch64",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"cmake_bin\",\n    srcs = [\"bin/cmake\"],\n)\n\nfilegroup(\n    name = \"cmake_data\",\n    srcs = glob(\n        [\n            \"**\",\n        ],\n        exclude = [\n            \"WORKSPACE\",\n            \"WORKSPACE.bazel\",\n            \"BUILD\",\n            \"BUILD.bazel\",\n            \"**/* *\",\n        ],\n    ),\n)\n\nnative_tool_toolchain(\n    name = \"cmake_tool\",\n    path = \"bin/cmake\",\n    target = \":cmake_data\",\n    env = {\"CMAKE\": \"$(execpath :cmake_bin)\"},\n    tools = [\":cmake_bin\"],\n)\n"
+            }
+          },
+          "cmake-3.23.2-linux-x86_64": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-linux-x86_64.tar.gz"
+              ],
+              "sha256": "aaced6f745b86ce853661a595bdac6c5314a60f8181b6912a0a4920acfa32708",
+              "strip_prefix": "cmake-3.23.2-linux-x86_64",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"cmake_bin\",\n    srcs = [\"bin/cmake\"],\n)\n\nfilegroup(\n    name = \"cmake_data\",\n    srcs = glob(\n        [\n            \"**\",\n        ],\n        exclude = [\n            \"WORKSPACE\",\n            \"WORKSPACE.bazel\",\n            \"BUILD\",\n            \"BUILD.bazel\",\n            \"**/* *\",\n        ],\n    ),\n)\n\nnative_tool_toolchain(\n    name = \"cmake_tool\",\n    path = \"bin/cmake\",\n    target = \":cmake_data\",\n    env = {\"CMAKE\": \"$(execpath :cmake_bin)\"},\n    tools = [\":cmake_bin\"],\n)\n"
+            }
+          },
+          "cmake-3.23.2-macos-universal": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-macos-universal.tar.gz"
+              ],
+              "sha256": "853a0f9af148c5ef47282ffffee06c4c9f257be2635936755f39ca13c3286c88",
+              "strip_prefix": "cmake-3.23.2-macos-universal/CMake.app/Contents",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"cmake_bin\",\n    srcs = [\"bin/cmake\"],\n)\n\nfilegroup(\n    name = \"cmake_data\",\n    srcs = glob(\n        [\n            \"**\",\n        ],\n        exclude = [\n            \"WORKSPACE\",\n            \"WORKSPACE.bazel\",\n            \"BUILD\",\n            \"BUILD.bazel\",\n            \"**/* *\",\n        ],\n    ),\n)\n\nnative_tool_toolchain(\n    name = \"cmake_tool\",\n    path = \"bin/cmake\",\n    target = \":cmake_data\",\n    env = {\"CMAKE\": \"$(execpath :cmake_bin)\"},\n    tools = [\":cmake_bin\"],\n)\n"
+            }
+          },
+          "cmake-3.23.2-windows-i386": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-windows-i386.zip"
+              ],
+              "sha256": "6a4fcd6a2315b93cb23c93507efccacc30c449c2bf98f14d6032bb226c582e07",
+              "strip_prefix": "cmake-3.23.2-windows-i386",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"cmake_bin\",\n    srcs = [\"bin/cmake.exe\"],\n)\n\nfilegroup(\n    name = \"cmake_data\",\n    srcs = glob(\n        [\n            \"**\",\n        ],\n        exclude = [\n            \"WORKSPACE\",\n            \"WORKSPACE.bazel\",\n            \"BUILD\",\n            \"BUILD.bazel\",\n            \"**/* *\",\n        ],\n    ),\n)\n\nnative_tool_toolchain(\n    name = \"cmake_tool\",\n    path = \"bin/cmake.exe\",\n    target = \":cmake_data\",\n    env = {\"CMAKE\": \"$(execpath :cmake_bin)\"},\n    tools = [\":cmake_bin\"],\n)\n"
+            }
+          },
+          "cmake-3.23.2-windows-x86_64": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-windows-x86_64.zip"
+              ],
+              "sha256": "2329387f3166b84c25091c86389fb891193967740c9bcf01e7f6d3306f7ffda0",
+              "strip_prefix": "cmake-3.23.2-windows-x86_64",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"cmake_bin\",\n    srcs = [\"bin/cmake.exe\"],\n)\n\nfilegroup(\n    name = \"cmake_data\",\n    srcs = glob(\n        [\n            \"**\",\n        ],\n        exclude = [\n            \"WORKSPACE\",\n            \"WORKSPACE.bazel\",\n            \"BUILD\",\n            \"BUILD.bazel\",\n            \"**/* *\",\n        ],\n    ),\n)\n\nnative_tool_toolchain(\n    name = \"cmake_tool\",\n    path = \"bin/cmake.exe\",\n    target = \":cmake_data\",\n    env = {\"CMAKE\": \"$(execpath :cmake_bin)\"},\n    tools = [\":cmake_bin\"],\n)\n"
+            }
+          },
+          "cmake_3.23.2_toolchains": {
+            "bzlFile": "@@rules_foreign_cc~//toolchains:prebuilt_toolchains_repository.bzl",
+            "ruleClassName": "prebuilt_toolchains_repository",
+            "attributes": {
+              "repos": {
+                "cmake-3.23.2-linux-aarch64": [
+                  "@platforms//cpu:aarch64",
+                  "@platforms//os:linux"
+                ],
+                "cmake-3.23.2-linux-x86_64": [
+                  "@platforms//cpu:x86_64",
+                  "@platforms//os:linux"
+                ],
+                "cmake-3.23.2-macos-universal": [
+                  "@platforms//os:macos"
+                ],
+                "cmake-3.23.2-windows-i386": [
+                  "@platforms//cpu:x86_32",
+                  "@platforms//os:windows"
+                ],
+                "cmake-3.23.2-windows-x86_64": [
+                  "@platforms//cpu:x86_64",
+                  "@platforms//os:windows"
+                ]
+              },
+              "tool": "cmake"
+            }
+          },
+          "ninja_1.12.1_linux": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-linux.zip"
+              ],
+              "sha256": "6f98805688d19672bd699fbbfa2c2cf0fc054ac3df1f0e6a47664d963d530255",
+              "strip_prefix": "",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"ninja_bin\",\n    srcs = [\"ninja\"],\n)\n\nnative_tool_toolchain(\n    name = \"ninja_tool\",\n    env = {\"NINJA\": \"$(execpath :ninja_bin)\"},\n    path = \"$(execpath :ninja_bin)\",\n    target = \":ninja_bin\",\n)\n"
+            }
+          },
+          "ninja_1.12.1_linux-aarch64": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-linux-aarch64.zip"
+              ],
+              "sha256": "5c25c6570b0155e95fce5918cb95f1ad9870df5768653afe128db822301a05a1",
+              "strip_prefix": "",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"ninja_bin\",\n    srcs = [\"ninja\"],\n)\n\nnative_tool_toolchain(\n    name = \"ninja_tool\",\n    env = {\"NINJA\": \"$(execpath :ninja_bin)\"},\n    path = \"$(execpath :ninja_bin)\",\n    target = \":ninja_bin\",\n)\n"
+            }
+          },
+          "ninja_1.12.1_mac": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-mac.zip"
+              ],
+              "sha256": "89a287444b5b3e98f88a945afa50ce937b8ffd1dcc59c555ad9b1baf855298c9",
+              "strip_prefix": "",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"ninja_bin\",\n    srcs = [\"ninja\"],\n)\n\nnative_tool_toolchain(\n    name = \"ninja_tool\",\n    env = {\"NINJA\": \"$(execpath :ninja_bin)\"},\n    path = \"$(execpath :ninja_bin)\",\n    target = \":ninja_bin\",\n)\n"
+            }
+          },
+          "ninja_1.12.1_mac_aarch64": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-mac.zip"
+              ],
+              "sha256": "89a287444b5b3e98f88a945afa50ce937b8ffd1dcc59c555ad9b1baf855298c9",
+              "strip_prefix": "",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"ninja_bin\",\n    srcs = [\"ninja\"],\n)\n\nnative_tool_toolchain(\n    name = \"ninja_tool\",\n    env = {\"NINJA\": \"$(execpath :ninja_bin)\"},\n    path = \"$(execpath :ninja_bin)\",\n    target = \":ninja_bin\",\n)\n"
+            }
+          },
+          "ninja_1.12.1_win": {
+            "bzlFile": "@@bazel_tools//tools/build_defs/repo:http.bzl",
+            "ruleClassName": "http_archive",
+            "attributes": {
+              "urls": [
+                "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip"
+              ],
+              "sha256": "f550fec705b6d6ff58f2db3c374c2277a37691678d6aba463adcbb129108467a",
+              "strip_prefix": "",
+              "build_file_content": "load(\"@rules_foreign_cc//toolchains/native_tools:native_tools_toolchain.bzl\", \"native_tool_toolchain\")\n\npackage(default_visibility = [\"//visibility:public\"])\n\nfilegroup(\n    name = \"ninja_bin\",\n    srcs = [\"ninja.exe\"],\n)\n\nnative_tool_toolchain(\n    name = \"ninja_tool\",\n    env = {\"NINJA\": \"$(execpath :ninja_bin)\"},\n    path = \"$(execpath :ninja_bin)\",\n    target = \":ninja_bin\",\n)\n"
+            }
+          },
+          "ninja_1.12.1_toolchains": {
+            "bzlFile": "@@rules_foreign_cc~//toolchains:prebuilt_toolchains_repository.bzl",
+            "ruleClassName": "prebuilt_toolchains_repository",
+            "attributes": {
+              "repos": {
+                "ninja_1.12.1_linux": [
+                  "@platforms//cpu:x86_64",
+                  "@platforms//os:linux"
+                ],
+                "ninja_1.12.1_linux-aarch64": [
+                  "@platforms//cpu:aarch64",
+                  "@platforms//os:linux"
+                ],
+                "ninja_1.12.1_mac": [
+                  "@platforms//cpu:x86_64",
+                  "@platforms//os:macos"
+                ],
+                "ninja_1.12.1_mac_aarch64": [
+                  "@platforms//cpu:aarch64",
+                  "@platforms//os:macos"
+                ],
+                "ninja_1.12.1_win": [
+                  "@platforms//cpu:x86_64",
+                  "@platforms//os:windows"
+                ]
+              },
+              "tool": "ninja"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "rules_foreign_cc~",
+            "bazel_tools",
+            "bazel_tools"
+          ],
+          [
+            "rules_foreign_cc~",
+            "rules_foreign_cc",
+            "rules_foreign_cc~"
           ]
         ]
       }
@@ -247,19 +1449,20 @@
     },
     "@@rules_python~//python/extensions:pip.bzl%pip": {
       "general": {
-        "bzlTransitiveDigest": "B47MI3LKen5D141AT19WPK4mNtDzVB7R4irX45iG6PQ=",
-        "usagesDigest": "t9uTjWI4tjiR1iqwZWBT+PRLyJ4ie+68o/26OW2YjOs=",
+        "bzlTransitiveDigest": "3A3oQe5xMAvksb8rRz9tHG+9WeCsJY9bueknzK+H5RQ=",
+        "usagesDigest": "dgZPUwVZcfH6dxBqg0tfdMNTTPhY2UxW/YQEqlReMSY=",
         "recordedFileInputs": {
-          "@@rules_python~~python~python_3_13_host//BUILD.bazel": "cf97d5763b728ce5ba8fdc3243350b967658ba4e3879734504aee002cec0d2b3",
-          "@@rules_python~//python/private/pypi/whl_installer/platform.py": "763d705ceaa41c87d8a6cfe8c6bc261a20881628b96f2fb4c4fef4b9befa53fe",
           "@@rules_python~//tools/publish/requirements_linux.txt": "d576e0d8542df61396a9b38deeaa183c24135ed5e8e73bb9622f298f2671811e",
           "@@rules_python~~internal_deps~pypi__packaging//BUILD.bazel": "6b3ce4866652a6d87846b383e5bf3a9ca2f77560c1ce75616c0b90527492b5ff",
           "@@//requirements_lock.txt": "573d18336001c969639b6da73778ba195bfeb3d285f90d45564e9bf9de03b2ff",
-          "@@rules_python~~internal_deps~pypi__packaging//packaging-24.0.dist-info/RECORD": "be1aea790359b4c2c9ea83d153c1a57c407742a35b95ee36d00723509f5ed5dd",
           "@@rules_python~//BUILD.bazel": "adf6fd93d8f3b74585367192db928a2bc56ee0438dc3a43c6f1ad233508a19c3",
           "@@rules_fuzzing~//fuzzing/requirements.txt": "ab04664be026b632a0d2a2446c4f65982b7654f5b6851d2f9d399a19b7242a5b",
-          "@@rules_python~//tools/publish/requirements_windows.txt": "d18538a3982beab378fd5687f4db33162ee1ece69801f9a451661b1b64286b76",
           "@@rules_python~//python/private/pypi/requirements_parser/resolve_target_platforms.py": "42bf51980528302373529bcdfddb8014e485182d6bc9d2f7d3bbe1f11d8d923d",
+          "@@rules_python~~python~python_3_13_host//BUILD.bazel": "cf97d5763b728ce5ba8fdc3243350b967658ba4e3879734504aee002cec0d2b3",
+          "@@rules_python~//python/private/pypi/whl_installer/platform.py": "763d705ceaa41c87d8a6cfe8c6bc261a20881628b96f2fb4c4fef4b9befa53fe",
+          "@@rules_python~~internal_deps~pypi__packaging//packaging-24.0.dist-info/RECORD": "be1aea790359b4c2c9ea83d153c1a57c407742a35b95ee36d00723509f5ed5dd",
+          "@@com_github_mvukov_rules_ros2~//requirements_lock.txt": "ab0e82134a69a7389104ab00f2adf20780150efcbc19fb75a8bfff44480bd0d3",
+          "@@rules_python~//tools/publish/requirements_windows.txt": "d18538a3982beab378fd5687f4db33162ee1ece69801f9a451661b1b64286b76",
           "@@protobuf~//python/requirements.txt": "983be60d3cec4b319dcab6d48aeb3f5b2f7c3350f26b3a9e97486c37967c73c5",
           "@@rules_python~//tools/publish/requirements_darwin.txt": "095d4a4f3d639dce831cd493367631cd51b53665292ab20194bac2c0c6458fa8"
         },
@@ -3273,6 +4476,426 @@
               ]
             }
           },
+          "rules_ros2_pip_deps_310_attrs": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "attrs==22.1.0 --hash=sha256:29adc2665447e5191d0e7c568fde78b21f9672d344281d0c6e1ab085429b22b6 --hash=sha256:86efa402f67bf2df34f51a335487cf46b1ec130d02b8d39fd248abfd30da551c"
+            }
+          },
+          "rules_ros2_pip_deps_310_catkin_pkg": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "catkin-pkg==0.5.2 --hash=sha256:4f77ff462261b8f90e170c979ac8b3199e9566fab90667c1736bd9a0ec8e3459 --hash=sha256:5d643eeafbce4890fcceaf9db197eadf2ca5a187d25593f65b6e5c57935f5da2"
+            }
+          },
+          "rules_ros2_pip_deps_310_coverage": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "coverage[toml]==7.0.5 --hash=sha256:051afcbd6d2ac39298d62d340f94dbb6a1f31de06dfaf6fcef7b759dd3860c45 --hash=sha256:0a1890fca2962c4f1ad16551d660b46ea77291fba2cc21c024cd527b9d9c8809 --hash=sha256:0ee30375b409d9a7ea0f30c50645d436b6f5dfee254edffd27e45a980ad2c7f4 --hash=sha256:13250b1f0bd023e0c9f11838bdeb60214dd5b6aaf8e8d2f110c7e232a1bff83b --hash=sha256:17e01dd8666c445025c29684d4aabf5a90dc6ef1ab25328aa52bedaa95b65ad7 --hash=sha256:19245c249aa711d954623d94f23cc94c0fd65865661f20b7781210cb97c471c0 --hash=sha256:1caed2367b32cc80a2b7f58a9f46658218a19c6cfe5bc234021966dc3daa01f0 --hash=sha256:1f66862d3a41674ebd8d1a7b6f5387fe5ce353f8719040a986551a545d7d83ea --hash=sha256:220e3fa77d14c8a507b2d951e463b57a1f7810a6443a26f9b7591ef39047b1b2 --hash=sha256:276f4cd0001cd83b00817c8db76730938b1ee40f4993b6a905f40a7278103b3a --hash=sha256:29de916ba1099ba2aab76aca101580006adfac5646de9b7c010a0f13867cba45 --hash=sha256:2a7f23bbaeb2a87f90f607730b45564076d870f1fb07b9318d0c21f36871932b --hash=sha256:2c407b1950b2d2ffa091f4e225ca19a66a9bd81222f27c56bd12658fc5ca1209 --hash=sha256:30b5fec1d34cc932c1bc04017b538ce16bf84e239378b8f75220478645d11fca --hash=sha256:3c2155943896ac78b9b0fd910fb381186d0c345911f5333ee46ac44c8f0e43ab --hash=sha256:411d4ff9d041be08fdfc02adf62e89c735b9468f6d8f6427f8a14b6bb0a85095 --hash=sha256:436e103950d05b7d7f55e39beeb4d5be298ca3e119e0589c0227e6d0b01ee8c7 --hash=sha256:49640bda9bda35b057b0e65b7c43ba706fa2335c9a9896652aebe0fa399e80e6 --hash=sha256:4a950f83fd3f9bca23b77442f3a2b2ea4ac900944d8af9993743774c4fdc57af --hash=sha256:50a6adc2be8edd7ee67d1abc3cd20678987c7b9d79cd265de55941e3d0d56499 --hash=sha256:52ab14b9e09ce052237dfe12d6892dd39b0401690856bcfe75d5baba4bfe2831 --hash=sha256:54f7e9705e14b2c9f6abdeb127c390f679f6dbe64ba732788d3015f7f76ef637 --hash=sha256:66e50680e888840c0995f2ad766e726ce71ca682e3c5f4eee82272c7671d38a2 --hash=sha256:790e4433962c9f454e213b21b0fd4b42310ade9c077e8edcb5113db0818450cb --hash=sha256:7a38362528a9115a4e276e65eeabf67dcfaf57698e17ae388599568a78dcb029 --hash=sha256:7b05ed4b35bf6ee790832f68932baf1f00caa32283d66cc4d455c9e9d115aafc --hash=sha256:7e109f1c9a3ece676597831874126555997c48f62bddbcace6ed17be3e372de8 --hash=sha256:949844af60ee96a376aac1ded2a27e134b8c8d35cc006a52903fc06c24a3296f --hash=sha256:95304068686545aa368b35dfda1cdfbbdbe2f6fe43de4a2e9baa8ebd71be46e2 --hash=sha256:9e662e6fc4f513b79da5d10a23edd2b87685815b337b1a30cd11307a6679148d --hash=sha256:a9fed35ca8c6e946e877893bbac022e8563b94404a605af1d1e6accc7eb73289 --hash=sha256:b69522b168a6b64edf0c33ba53eac491c0a8f5cc94fa4337f9c6f4c8f2f5296c --hash=sha256:b78729038abea6a5df0d2708dce21e82073463b2d79d10884d7d591e0f385ded --hash=sha256:b8c56bec53d6e3154eaff6ea941226e7bd7cc0d99f9b3756c2520fc7a94e6d96 --hash=sha256:b9727ac4f5cf2cbf87880a63870b5b9730a8ae3a4a360241a0fdaa2f71240ff0 --hash=sha256:ba3027deb7abf02859aca49c865ece538aee56dcb4871b4cced23ba4d5088904 --hash=sha256:be9fcf32c010da0ba40bf4ee01889d6c737658f4ddff160bd7eb9cac8f094b21 --hash=sha256:c18d47f314b950dbf24a41787ced1474e01ca816011925976d90a88b27c22b89 --hash=sha256:c76a3075e96b9c9ff00df8b5f7f560f5634dffd1658bafb79eb2682867e94f78 --hash=sha256:cbfcba14a3225b055a28b3199c3d81cd0ab37d2353ffd7f6fd64844cebab31ad --hash=sha256:d254666d29540a72d17cc0175746cfb03d5123db33e67d1020e42dae611dc196 --hash=sha256:d66187792bfe56f8c18ba986a0e4ae44856b1c645336bd2c776e3386da91e1dd --hash=sha256:d8d04e755934195bdc1db45ba9e040b8d20d046d04d6d77e71b3b34a8cc002d0 --hash=sha256:d8f3e2e0a1d6777e58e834fd5a04657f66affa615dae61dd67c35d1568c38882 --hash=sha256:e057e74e53db78122a3979f908973e171909a58ac20df05c33998d52e6d35757 --hash=sha256:e4ce984133b888cc3a46867c8b4372c7dee9cee300335e2925e197bcd45b9e16 --hash=sha256:ea76dbcad0b7b0deb265d8c36e0801abcddf6cc1395940a24e3595288b405ca0 --hash=sha256:ecb0f73954892f98611e183f50acdc9e21a4653f294dfbe079da73c6378a6f47 --hash=sha256:ef14d75d86f104f03dea66c13188487151760ef25dd6b2dbd541885185f05f40 --hash=sha256:f26648e1b3b03b6022b48a9b910d0ae209e2d51f50441db5dce5b530fad6d9b1 --hash=sha256:f67472c09a0c7486e27f3275f617c964d25e35727af952869dd496b9b5b7f6a3"
+            }
+          },
+          "rules_ros2_pip_deps_310_docutils": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "docutils==0.19 --hash=sha256:33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6 --hash=sha256:5e1de4d849fee02c63b040a4a3fd567f4ab104defd8a5511fbbc24a8a017efbc"
+            }
+          },
+          "rules_ros2_pip_deps_310_empy": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "empy==3.3.4 --hash=sha256:73ac49785b601479df4ea18a7c79bc1304a8a7c34c02b9472cf1206ae88f01b3"
+            }
+          },
+          "rules_ros2_pip_deps_310_exceptiongroup": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "exceptiongroup==1.0.4 --hash=sha256:542adf9dea4055530d6e1279602fa5cb11dab2395fa650b8674eaec35fc4a828 --hash=sha256:bd14967b79cd9bdb54d97323216f8fdf533e278df937aa2a90089e7d6e06e5ec"
+            }
+          },
+          "rules_ros2_pip_deps_310_iniconfig": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "iniconfig==1.1.1 --hash=sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3 --hash=sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"
+            }
+          },
+          "rules_ros2_pip_deps_310_lark_parser": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "lark-parser==0.12.0 --hash=sha256:0eaf30cb5ba787fe404d73a7d6e61df97b21d5a63ac26c5008c78a494373c675 --hash=sha256:15967db1f1214013dca65b1180745047b9be457d73da224fcda3d9dd4e96a138"
+            }
+          },
+          "rules_ros2_pip_deps_310_numpy": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "numpy==1.23.3 --hash=sha256:004f0efcb2fe1c0bd6ae1fcfc69cc8b6bf2407e0f18be308612007a0762b4089 --hash=sha256:09f6b7bdffe57fc61d869a22f506049825d707b288039d30f26a0d0d8ea05164 --hash=sha256:0ea3f98a0ffce3f8f57675eb9119f3f4edb81888b6874bc1953f91e0b1d4f440 --hash=sha256:17c0e467ade9bda685d5ac7f5fa729d8d3e76b23195471adae2d6a6941bd2c18 --hash=sha256:1f27b5322ac4067e67c8f9378b41c746d8feac8bdd0e0ffede5324667b8a075c --hash=sha256:22d43376ee0acd547f3149b9ec12eec2f0ca4a6ab2f61753c5b29bb3e795ac4d --hash=sha256:2ad3ec9a748a8943e6eb4358201f7e1c12ede35f510b1a2221b70af4bb64295c --hash=sha256:301c00cf5e60e08e04d842fc47df641d4a181e651c7135c50dc2762ffe293dbd --hash=sha256:39a664e3d26ea854211867d20ebcc8023257c1800ae89773cbba9f9e97bae036 --hash=sha256:51bf49c0cd1d52be0a240aa66f3458afc4b95d8993d2d04f0d91fa60c10af6cd --hash=sha256:78a63d2df1d947bd9d1b11d35564c2f9e4b57898aae4626638056ec1a231c40c --hash=sha256:7cd1328e5bdf0dee621912f5833648e2daca72e3839ec1d6695e91089625f0b4 --hash=sha256:8355fc10fd33a5a70981a5b8a0de51d10af3688d7a9e4a34fcc8fa0d7467bb7f --hash=sha256:8c79d7cf86d049d0c5089231a5bcd31edb03555bd93d81a16870aa98c6cfb79d --hash=sha256:91b8d6768a75247026e951dce3b2aac79dc7e78622fc148329135ba189813584 --hash=sha256:94c15ca4e52671a59219146ff584488907b1f9b3fc232622b47e2cf832e94fb8 --hash=sha256:98dcbc02e39b1658dc4b4508442a560fe3ca5ca0d989f0df062534e5ca3a5c1a --hash=sha256:a64403f634e5ffdcd85e0b12c08f04b3080d3e840aef118721021f9b48fc1460 --hash=sha256:bc6e8da415f359b578b00bcfb1d08411c96e9a97f9e6c7adada554a0812a6cc6 --hash=sha256:bdc9febce3e68b697d931941b263c59e0c74e8f18861f4064c1f712562903411 --hash=sha256:c1ba66c48b19cc9c2975c0d354f24058888cdc674bebadceb3cdc9ec403fb5d1 --hash=sha256:c9f707b5bb73bf277d812ded9896f9512a43edff72712f31667d0a8c2f8e71ee --hash=sha256:d5422d6a1ea9b15577a9432e26608c73a78faf0b9039437b075cf322c92e98e7 --hash=sha256:e5d5420053bbb3dd64c30e58f9363d7a9c27444c3648e61460c1237f9ec3fa14 --hash=sha256:e868b0389c5ccfc092031a861d4e158ea164d8b7fdbb10e3b5689b4fc6498df6 --hash=sha256:efd9d3abe5774404becdb0748178b48a218f1d8c44e0375475732211ea47c67e --hash=sha256:f8c02ec3c4c4fcb718fdf89a6c6f709b14949408e8cf2a2be5bfa9c49548fd85 --hash=sha256:ffcf105ecdd9396e05a8e58e81faaaf34d3f9875f137c7372450baa5d77c9a54"
+            }
+          },
+          "rules_ros2_pip_deps_310_packaging": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "packaging==21.3 --hash=sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb --hash=sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"
+            }
+          },
+          "rules_ros2_pip_deps_310_pluggy": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "pluggy==1.0.0 --hash=sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159 --hash=sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"
+            }
+          },
+          "rules_ros2_pip_deps_310_psutil": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "psutil==5.9.7 --hash=sha256:032f4f2c909818c86cea4fe2cc407f1c0f0cde8e6c6d702b28b8ce0c0d143340 --hash=sha256:0bd41bf2d1463dfa535942b2a8f0e958acf6607ac0be52265ab31f7923bcd5e6 --hash=sha256:1132704b876e58d277168cd729d64750633d5ff0183acf5b3c986b8466cd0284 --hash=sha256:1d4bc4a0148fdd7fd8f38e0498639ae128e64538faa507df25a20f8f7fb2341c --hash=sha256:3c4747a3e2ead1589e647e64aad601981f01b68f9398ddf94d01e3dc0d1e57c7 --hash=sha256:3f02134e82cfb5d089fddf20bb2e03fd5cd52395321d1c8458a9e58500ff417c --hash=sha256:44969859757f4d8f2a9bd5b76eba8c3099a2c8cf3992ff62144061e39ba8568e --hash=sha256:4c03362e280d06bbbfcd52f29acd79c733e0af33d707c54255d21029b8b32ba6 --hash=sha256:5794944462509e49d4d458f4dbfb92c47539e7d8d15c796f141f474010084056 --hash=sha256:b27f8fdb190c8c03914f908a4555159327d7481dac2f01008d483137ef3311a9 --hash=sha256:c727ca5a9b2dd5193b8644b9f0c883d54f1248310023b5ad3e92036c5e2ada68 --hash=sha256:e469990e28f1ad738f65a42dcfc17adaed9d0f325d55047593cb9033a0ab63df --hash=sha256:ea36cc62e69a13ec52b2f625c27527f6e4479bca2b340b7a452af55b34fcbe2e --hash=sha256:f37f87e4d73b79e6c5e749440c3113b81d1ee7d26f21c19c47371ddea834f414 --hash=sha256:fe361f743cb3389b8efda21980d93eb55c1f1e3898269bc9a2a1d0bb7b1f6508 --hash=sha256:fe8b7f07948f1304497ce4f4684881250cd859b16d06a1dc4d7941eeb6233bfe"
+            }
+          },
+          "rules_ros2_pip_deps_310_pyparsing": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "pyparsing==3.0.9 --hash=sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb --hash=sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"
+            }
+          },
+          "rules_ros2_pip_deps_310_pytest": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "pytest==7.2.0 --hash=sha256:892f933d339f068883b6fd5a459f03d85bfcb355e4981e146d2c7616c21fef71 --hash=sha256:c4014eb40e10f11f355ad4e3c2fb2c6c6d1919c73f3b5a433de4708202cade59"
+            }
+          },
+          "rules_ros2_pip_deps_310_pytest_cov": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "pytest-cov==4.0.0 --hash=sha256:2feb1b751d66a8bd934e5edfa2e961d11309dc37b73b0eabe73b5945fee20f6b --hash=sha256:996b79efde6433cdbd0088872dbc5fb3ed7fe1578b68cdbba634f14bb8dd0470"
+            }
+          },
+          "rules_ros2_pip_deps_310_python_dateutil": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86 --hash=sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
+            }
+          },
+          "rules_ros2_pip_deps_310_pyyaml": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "pyyaml==6.0 --hash=sha256:01b45c0191e6d66c470b6cf1b9531a771a83c1c4208272ead47a3ae4f2f603bf --hash=sha256:0283c35a6a9fbf047493e3a0ce8d79ef5030852c51e9d911a27badfde0605293 --hash=sha256:055d937d65826939cb044fc8c9b08889e8c743fdc6a32b33e2390f66013e449b --hash=sha256:07751360502caac1c067a8132d150cf3d61339af5691fe9e87803040dbc5db57 --hash=sha256:0b4624f379dab24d3725ffde76559cff63d9ec94e1736b556dacdfebe5ab6d4b --hash=sha256:0ce82d761c532fe4ec3f87fc45688bdd3a4c1dc5e0b4a19814b9009a29baefd4 --hash=sha256:1e4747bc279b4f613a09eb64bba2ba602d8a6664c6ce6396a4d0cd413a50ce07 --hash=sha256:213c60cd50106436cc818accf5baa1aba61c0189ff610f64f4a3e8c6726218ba --hash=sha256:231710d57adfd809ef5d34183b8ed1eeae3f76459c18fb4a0b373ad56bedcdd9 --hash=sha256:277a0ef2981ca40581a47093e9e2d13b3f1fbbeffae064c1d21bfceba2030287 --hash=sha256:2cd5df3de48857ed0544b34e2d40e9fac445930039f3cfe4bcc592a1f836d513 --hash=sha256:40527857252b61eacd1d9af500c3337ba8deb8fc298940291486c465c8b46ec0 --hash=sha256:432557aa2c09802be39460360ddffd48156e30721f5e8d917f01d31694216782 --hash=sha256:473f9edb243cb1935ab5a084eb238d842fb8f404ed2193a915d1784b5a6b5fc0 --hash=sha256:48c346915c114f5fdb3ead70312bd042a953a8ce5c7106d5bfb1a5254e47da92 --hash=sha256:50602afada6d6cbfad699b0c7bb50d5ccffa7e46a3d738092afddc1f9758427f --hash=sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2 --hash=sha256:77f396e6ef4c73fdc33a9157446466f1cff553d979bd00ecb64385760c6babdc --hash=sha256:81957921f441d50af23654aa6c5e5eaf9b06aba7f0a19c18a538dc7ef291c5a1 --hash=sha256:819b3830a1543db06c4d4b865e70ded25be52a2e0631ccd2f6a47a2822f2fd7c --hash=sha256:897b80890765f037df3403d22bab41627ca8811ae55e9a722fd0392850ec4d86 --hash=sha256:98c4d36e99714e55cfbaaee6dd5badbc9a1ec339ebfc3b1f52e293aee6bb71a4 --hash=sha256:9df7ed3b3d2e0ecfe09e14741b857df43adb5a3ddadc919a2d94fbdf78fea53c --hash=sha256:9fa600030013c4de8165339db93d182b9431076eb98eb40ee068700c9c813e34 --hash=sha256:a80a78046a72361de73f8f395f1f1e49f956c6be882eed58505a15f3e430962b --hash=sha256:afa17f5bc4d1b10afd4466fd3a44dc0e245382deca5b3c353d8b757f9e3ecb8d --hash=sha256:b3d267842bf12586ba6c734f89d1f5b871df0273157918b0ccefa29deb05c21c --hash=sha256:b5b9eccad747aabaaffbc6064800670f0c297e52c12754eb1d976c57e4f74dcb --hash=sha256:bfaef573a63ba8923503d27530362590ff4f576c626d86a9fed95822a8255fd7 --hash=sha256:c5687b8d43cf58545ade1fe3e055f70eac7a5a1a0bf42824308d868289a95737 --hash=sha256:cba8c411ef271aa037d7357a2bc8f9ee8b58b9965831d9e51baf703280dc73d3 --hash=sha256:d15a181d1ecd0d4270dc32edb46f7cb7733c7c508857278d3d378d14d606db2d --hash=sha256:d4b0ba9512519522b118090257be113b9468d804b19d63c71dbcf4a48fa32358 --hash=sha256:d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53 --hash=sha256:d4eccecf9adf6fbcc6861a38015c2a64f38b9d94838ac1810a9023a0609e1b78 --hash=sha256:d67d839ede4ed1b28a4e8909735fc992a923cdb84e618544973d7dfc71540803 --hash=sha256:daf496c58a8c52083df09b80c860005194014c3698698d1a57cbcfa182142a3a --hash=sha256:dbad0e9d368bb989f4515da330b88a057617d16b6a8245084f1b05400f24609f --hash=sha256:e61ceaab6f49fb8bdfaa0f92c4b57bcfbea54c09277b1b4f7ac376bfb7a7c174 --hash=sha256:f84fbc98b019fef2ee9a1cb3ce93e3187a6df0b2538a651bfb890254ba9f90b5"
+            }
+          },
+          "rules_ros2_pip_deps_310_setuptools": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "setuptools==65.4.1 --hash=sha256:1b6bdc6161661409c5f21508763dc63ab20a9ac2f8ba20029aaaa7fdb9118012 --hash=sha256:3050e338e5871e70c72983072fe34f6032ae1cdeeeb67338199c2f74e083a80e"
+            }
+          },
+          "rules_ros2_pip_deps_310_six": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "six==1.16.0 --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            }
+          },
+          "rules_ros2_pip_deps_310_tomli": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "tomli==2.0.1 --hash=sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc --hash=sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
+            }
+          },
+          "rules_ros2_pip_deps_310_types_pkg_resources": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_10_host//:python",
+              "repo": "rules_ros2_pip_deps_310",
+              "requirement": "types-pkg-resources==0.1.3 --hash=sha256:0cb9972cee992249f93fff1a491bf2dc3ce674e5a1926e27d4f0866f7d9b6d9c --hash=sha256:834a9b8d3dbea343562fd99d5d3359a726f6bf9d3733bccd2b4f3096fbab9dae"
+            }
+          },
+          "rules_ros2_pip_deps_311_attrs": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "attrs==22.1.0 --hash=sha256:29adc2665447e5191d0e7c568fde78b21f9672d344281d0c6e1ab085429b22b6 --hash=sha256:86efa402f67bf2df34f51a335487cf46b1ec130d02b8d39fd248abfd30da551c"
+            }
+          },
+          "rules_ros2_pip_deps_311_catkin_pkg": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "catkin-pkg==0.5.2 --hash=sha256:4f77ff462261b8f90e170c979ac8b3199e9566fab90667c1736bd9a0ec8e3459 --hash=sha256:5d643eeafbce4890fcceaf9db197eadf2ca5a187d25593f65b6e5c57935f5da2"
+            }
+          },
+          "rules_ros2_pip_deps_311_coverage": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "coverage[toml]==7.0.5 --hash=sha256:051afcbd6d2ac39298d62d340f94dbb6a1f31de06dfaf6fcef7b759dd3860c45 --hash=sha256:0a1890fca2962c4f1ad16551d660b46ea77291fba2cc21c024cd527b9d9c8809 --hash=sha256:0ee30375b409d9a7ea0f30c50645d436b6f5dfee254edffd27e45a980ad2c7f4 --hash=sha256:13250b1f0bd023e0c9f11838bdeb60214dd5b6aaf8e8d2f110c7e232a1bff83b --hash=sha256:17e01dd8666c445025c29684d4aabf5a90dc6ef1ab25328aa52bedaa95b65ad7 --hash=sha256:19245c249aa711d954623d94f23cc94c0fd65865661f20b7781210cb97c471c0 --hash=sha256:1caed2367b32cc80a2b7f58a9f46658218a19c6cfe5bc234021966dc3daa01f0 --hash=sha256:1f66862d3a41674ebd8d1a7b6f5387fe5ce353f8719040a986551a545d7d83ea --hash=sha256:220e3fa77d14c8a507b2d951e463b57a1f7810a6443a26f9b7591ef39047b1b2 --hash=sha256:276f4cd0001cd83b00817c8db76730938b1ee40f4993b6a905f40a7278103b3a --hash=sha256:29de916ba1099ba2aab76aca101580006adfac5646de9b7c010a0f13867cba45 --hash=sha256:2a7f23bbaeb2a87f90f607730b45564076d870f1fb07b9318d0c21f36871932b --hash=sha256:2c407b1950b2d2ffa091f4e225ca19a66a9bd81222f27c56bd12658fc5ca1209 --hash=sha256:30b5fec1d34cc932c1bc04017b538ce16bf84e239378b8f75220478645d11fca --hash=sha256:3c2155943896ac78b9b0fd910fb381186d0c345911f5333ee46ac44c8f0e43ab --hash=sha256:411d4ff9d041be08fdfc02adf62e89c735b9468f6d8f6427f8a14b6bb0a85095 --hash=sha256:436e103950d05b7d7f55e39beeb4d5be298ca3e119e0589c0227e6d0b01ee8c7 --hash=sha256:49640bda9bda35b057b0e65b7c43ba706fa2335c9a9896652aebe0fa399e80e6 --hash=sha256:4a950f83fd3f9bca23b77442f3a2b2ea4ac900944d8af9993743774c4fdc57af --hash=sha256:50a6adc2be8edd7ee67d1abc3cd20678987c7b9d79cd265de55941e3d0d56499 --hash=sha256:52ab14b9e09ce052237dfe12d6892dd39b0401690856bcfe75d5baba4bfe2831 --hash=sha256:54f7e9705e14b2c9f6abdeb127c390f679f6dbe64ba732788d3015f7f76ef637 --hash=sha256:66e50680e888840c0995f2ad766e726ce71ca682e3c5f4eee82272c7671d38a2 --hash=sha256:790e4433962c9f454e213b21b0fd4b42310ade9c077e8edcb5113db0818450cb --hash=sha256:7a38362528a9115a4e276e65eeabf67dcfaf57698e17ae388599568a78dcb029 --hash=sha256:7b05ed4b35bf6ee790832f68932baf1f00caa32283d66cc4d455c9e9d115aafc --hash=sha256:7e109f1c9a3ece676597831874126555997c48f62bddbcace6ed17be3e372de8 --hash=sha256:949844af60ee96a376aac1ded2a27e134b8c8d35cc006a52903fc06c24a3296f --hash=sha256:95304068686545aa368b35dfda1cdfbbdbe2f6fe43de4a2e9baa8ebd71be46e2 --hash=sha256:9e662e6fc4f513b79da5d10a23edd2b87685815b337b1a30cd11307a6679148d --hash=sha256:a9fed35ca8c6e946e877893bbac022e8563b94404a605af1d1e6accc7eb73289 --hash=sha256:b69522b168a6b64edf0c33ba53eac491c0a8f5cc94fa4337f9c6f4c8f2f5296c --hash=sha256:b78729038abea6a5df0d2708dce21e82073463b2d79d10884d7d591e0f385ded --hash=sha256:b8c56bec53d6e3154eaff6ea941226e7bd7cc0d99f9b3756c2520fc7a94e6d96 --hash=sha256:b9727ac4f5cf2cbf87880a63870b5b9730a8ae3a4a360241a0fdaa2f71240ff0 --hash=sha256:ba3027deb7abf02859aca49c865ece538aee56dcb4871b4cced23ba4d5088904 --hash=sha256:be9fcf32c010da0ba40bf4ee01889d6c737658f4ddff160bd7eb9cac8f094b21 --hash=sha256:c18d47f314b950dbf24a41787ced1474e01ca816011925976d90a88b27c22b89 --hash=sha256:c76a3075e96b9c9ff00df8b5f7f560f5634dffd1658bafb79eb2682867e94f78 --hash=sha256:cbfcba14a3225b055a28b3199c3d81cd0ab37d2353ffd7f6fd64844cebab31ad --hash=sha256:d254666d29540a72d17cc0175746cfb03d5123db33e67d1020e42dae611dc196 --hash=sha256:d66187792bfe56f8c18ba986a0e4ae44856b1c645336bd2c776e3386da91e1dd --hash=sha256:d8d04e755934195bdc1db45ba9e040b8d20d046d04d6d77e71b3b34a8cc002d0 --hash=sha256:d8f3e2e0a1d6777e58e834fd5a04657f66affa615dae61dd67c35d1568c38882 --hash=sha256:e057e74e53db78122a3979f908973e171909a58ac20df05c33998d52e6d35757 --hash=sha256:e4ce984133b888cc3a46867c8b4372c7dee9cee300335e2925e197bcd45b9e16 --hash=sha256:ea76dbcad0b7b0deb265d8c36e0801abcddf6cc1395940a24e3595288b405ca0 --hash=sha256:ecb0f73954892f98611e183f50acdc9e21a4653f294dfbe079da73c6378a6f47 --hash=sha256:ef14d75d86f104f03dea66c13188487151760ef25dd6b2dbd541885185f05f40 --hash=sha256:f26648e1b3b03b6022b48a9b910d0ae209e2d51f50441db5dce5b530fad6d9b1 --hash=sha256:f67472c09a0c7486e27f3275f617c964d25e35727af952869dd496b9b5b7f6a3"
+            }
+          },
+          "rules_ros2_pip_deps_311_docutils": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "docutils==0.19 --hash=sha256:33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6 --hash=sha256:5e1de4d849fee02c63b040a4a3fd567f4ab104defd8a5511fbbc24a8a017efbc"
+            }
+          },
+          "rules_ros2_pip_deps_311_empy": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "empy==3.3.4 --hash=sha256:73ac49785b601479df4ea18a7c79bc1304a8a7c34c02b9472cf1206ae88f01b3"
+            }
+          },
+          "rules_ros2_pip_deps_311_exceptiongroup": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "exceptiongroup==1.0.4 --hash=sha256:542adf9dea4055530d6e1279602fa5cb11dab2395fa650b8674eaec35fc4a828 --hash=sha256:bd14967b79cd9bdb54d97323216f8fdf533e278df937aa2a90089e7d6e06e5ec"
+            }
+          },
+          "rules_ros2_pip_deps_311_iniconfig": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "iniconfig==1.1.1 --hash=sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3 --hash=sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"
+            }
+          },
+          "rules_ros2_pip_deps_311_lark_parser": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "lark-parser==0.12.0 --hash=sha256:0eaf30cb5ba787fe404d73a7d6e61df97b21d5a63ac26c5008c78a494373c675 --hash=sha256:15967db1f1214013dca65b1180745047b9be457d73da224fcda3d9dd4e96a138"
+            }
+          },
+          "rules_ros2_pip_deps_311_numpy": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "numpy==1.23.3 --hash=sha256:004f0efcb2fe1c0bd6ae1fcfc69cc8b6bf2407e0f18be308612007a0762b4089 --hash=sha256:09f6b7bdffe57fc61d869a22f506049825d707b288039d30f26a0d0d8ea05164 --hash=sha256:0ea3f98a0ffce3f8f57675eb9119f3f4edb81888b6874bc1953f91e0b1d4f440 --hash=sha256:17c0e467ade9bda685d5ac7f5fa729d8d3e76b23195471adae2d6a6941bd2c18 --hash=sha256:1f27b5322ac4067e67c8f9378b41c746d8feac8bdd0e0ffede5324667b8a075c --hash=sha256:22d43376ee0acd547f3149b9ec12eec2f0ca4a6ab2f61753c5b29bb3e795ac4d --hash=sha256:2ad3ec9a748a8943e6eb4358201f7e1c12ede35f510b1a2221b70af4bb64295c --hash=sha256:301c00cf5e60e08e04d842fc47df641d4a181e651c7135c50dc2762ffe293dbd --hash=sha256:39a664e3d26ea854211867d20ebcc8023257c1800ae89773cbba9f9e97bae036 --hash=sha256:51bf49c0cd1d52be0a240aa66f3458afc4b95d8993d2d04f0d91fa60c10af6cd --hash=sha256:78a63d2df1d947bd9d1b11d35564c2f9e4b57898aae4626638056ec1a231c40c --hash=sha256:7cd1328e5bdf0dee621912f5833648e2daca72e3839ec1d6695e91089625f0b4 --hash=sha256:8355fc10fd33a5a70981a5b8a0de51d10af3688d7a9e4a34fcc8fa0d7467bb7f --hash=sha256:8c79d7cf86d049d0c5089231a5bcd31edb03555bd93d81a16870aa98c6cfb79d --hash=sha256:91b8d6768a75247026e951dce3b2aac79dc7e78622fc148329135ba189813584 --hash=sha256:94c15ca4e52671a59219146ff584488907b1f9b3fc232622b47e2cf832e94fb8 --hash=sha256:98dcbc02e39b1658dc4b4508442a560fe3ca5ca0d989f0df062534e5ca3a5c1a --hash=sha256:a64403f634e5ffdcd85e0b12c08f04b3080d3e840aef118721021f9b48fc1460 --hash=sha256:bc6e8da415f359b578b00bcfb1d08411c96e9a97f9e6c7adada554a0812a6cc6 --hash=sha256:bdc9febce3e68b697d931941b263c59e0c74e8f18861f4064c1f712562903411 --hash=sha256:c1ba66c48b19cc9c2975c0d354f24058888cdc674bebadceb3cdc9ec403fb5d1 --hash=sha256:c9f707b5bb73bf277d812ded9896f9512a43edff72712f31667d0a8c2f8e71ee --hash=sha256:d5422d6a1ea9b15577a9432e26608c73a78faf0b9039437b075cf322c92e98e7 --hash=sha256:e5d5420053bbb3dd64c30e58f9363d7a9c27444c3648e61460c1237f9ec3fa14 --hash=sha256:e868b0389c5ccfc092031a861d4e158ea164d8b7fdbb10e3b5689b4fc6498df6 --hash=sha256:efd9d3abe5774404becdb0748178b48a218f1d8c44e0375475732211ea47c67e --hash=sha256:f8c02ec3c4c4fcb718fdf89a6c6f709b14949408e8cf2a2be5bfa9c49548fd85 --hash=sha256:ffcf105ecdd9396e05a8e58e81faaaf34d3f9875f137c7372450baa5d77c9a54"
+            }
+          },
+          "rules_ros2_pip_deps_311_packaging": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "packaging==21.3 --hash=sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb --hash=sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"
+            }
+          },
+          "rules_ros2_pip_deps_311_pluggy": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "pluggy==1.0.0 --hash=sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159 --hash=sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"
+            }
+          },
+          "rules_ros2_pip_deps_311_psutil": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "psutil==5.9.7 --hash=sha256:032f4f2c909818c86cea4fe2cc407f1c0f0cde8e6c6d702b28b8ce0c0d143340 --hash=sha256:0bd41bf2d1463dfa535942b2a8f0e958acf6607ac0be52265ab31f7923bcd5e6 --hash=sha256:1132704b876e58d277168cd729d64750633d5ff0183acf5b3c986b8466cd0284 --hash=sha256:1d4bc4a0148fdd7fd8f38e0498639ae128e64538faa507df25a20f8f7fb2341c --hash=sha256:3c4747a3e2ead1589e647e64aad601981f01b68f9398ddf94d01e3dc0d1e57c7 --hash=sha256:3f02134e82cfb5d089fddf20bb2e03fd5cd52395321d1c8458a9e58500ff417c --hash=sha256:44969859757f4d8f2a9bd5b76eba8c3099a2c8cf3992ff62144061e39ba8568e --hash=sha256:4c03362e280d06bbbfcd52f29acd79c733e0af33d707c54255d21029b8b32ba6 --hash=sha256:5794944462509e49d4d458f4dbfb92c47539e7d8d15c796f141f474010084056 --hash=sha256:b27f8fdb190c8c03914f908a4555159327d7481dac2f01008d483137ef3311a9 --hash=sha256:c727ca5a9b2dd5193b8644b9f0c883d54f1248310023b5ad3e92036c5e2ada68 --hash=sha256:e469990e28f1ad738f65a42dcfc17adaed9d0f325d55047593cb9033a0ab63df --hash=sha256:ea36cc62e69a13ec52b2f625c27527f6e4479bca2b340b7a452af55b34fcbe2e --hash=sha256:f37f87e4d73b79e6c5e749440c3113b81d1ee7d26f21c19c47371ddea834f414 --hash=sha256:fe361f743cb3389b8efda21980d93eb55c1f1e3898269bc9a2a1d0bb7b1f6508 --hash=sha256:fe8b7f07948f1304497ce4f4684881250cd859b16d06a1dc4d7941eeb6233bfe"
+            }
+          },
+          "rules_ros2_pip_deps_311_pyparsing": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "pyparsing==3.0.9 --hash=sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb --hash=sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"
+            }
+          },
+          "rules_ros2_pip_deps_311_pytest": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "pytest==7.2.0 --hash=sha256:892f933d339f068883b6fd5a459f03d85bfcb355e4981e146d2c7616c21fef71 --hash=sha256:c4014eb40e10f11f355ad4e3c2fb2c6c6d1919c73f3b5a433de4708202cade59"
+            }
+          },
+          "rules_ros2_pip_deps_311_pytest_cov": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "pytest-cov==4.0.0 --hash=sha256:2feb1b751d66a8bd934e5edfa2e961d11309dc37b73b0eabe73b5945fee20f6b --hash=sha256:996b79efde6433cdbd0088872dbc5fb3ed7fe1578b68cdbba634f14bb8dd0470"
+            }
+          },
+          "rules_ros2_pip_deps_311_python_dateutil": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86 --hash=sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
+            }
+          },
+          "rules_ros2_pip_deps_311_pyyaml": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "pyyaml==6.0 --hash=sha256:01b45c0191e6d66c470b6cf1b9531a771a83c1c4208272ead47a3ae4f2f603bf --hash=sha256:0283c35a6a9fbf047493e3a0ce8d79ef5030852c51e9d911a27badfde0605293 --hash=sha256:055d937d65826939cb044fc8c9b08889e8c743fdc6a32b33e2390f66013e449b --hash=sha256:07751360502caac1c067a8132d150cf3d61339af5691fe9e87803040dbc5db57 --hash=sha256:0b4624f379dab24d3725ffde76559cff63d9ec94e1736b556dacdfebe5ab6d4b --hash=sha256:0ce82d761c532fe4ec3f87fc45688bdd3a4c1dc5e0b4a19814b9009a29baefd4 --hash=sha256:1e4747bc279b4f613a09eb64bba2ba602d8a6664c6ce6396a4d0cd413a50ce07 --hash=sha256:213c60cd50106436cc818accf5baa1aba61c0189ff610f64f4a3e8c6726218ba --hash=sha256:231710d57adfd809ef5d34183b8ed1eeae3f76459c18fb4a0b373ad56bedcdd9 --hash=sha256:277a0ef2981ca40581a47093e9e2d13b3f1fbbeffae064c1d21bfceba2030287 --hash=sha256:2cd5df3de48857ed0544b34e2d40e9fac445930039f3cfe4bcc592a1f836d513 --hash=sha256:40527857252b61eacd1d9af500c3337ba8deb8fc298940291486c465c8b46ec0 --hash=sha256:432557aa2c09802be39460360ddffd48156e30721f5e8d917f01d31694216782 --hash=sha256:473f9edb243cb1935ab5a084eb238d842fb8f404ed2193a915d1784b5a6b5fc0 --hash=sha256:48c346915c114f5fdb3ead70312bd042a953a8ce5c7106d5bfb1a5254e47da92 --hash=sha256:50602afada6d6cbfad699b0c7bb50d5ccffa7e46a3d738092afddc1f9758427f --hash=sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2 --hash=sha256:77f396e6ef4c73fdc33a9157446466f1cff553d979bd00ecb64385760c6babdc --hash=sha256:81957921f441d50af23654aa6c5e5eaf9b06aba7f0a19c18a538dc7ef291c5a1 --hash=sha256:819b3830a1543db06c4d4b865e70ded25be52a2e0631ccd2f6a47a2822f2fd7c --hash=sha256:897b80890765f037df3403d22bab41627ca8811ae55e9a722fd0392850ec4d86 --hash=sha256:98c4d36e99714e55cfbaaee6dd5badbc9a1ec339ebfc3b1f52e293aee6bb71a4 --hash=sha256:9df7ed3b3d2e0ecfe09e14741b857df43adb5a3ddadc919a2d94fbdf78fea53c --hash=sha256:9fa600030013c4de8165339db93d182b9431076eb98eb40ee068700c9c813e34 --hash=sha256:a80a78046a72361de73f8f395f1f1e49f956c6be882eed58505a15f3e430962b --hash=sha256:afa17f5bc4d1b10afd4466fd3a44dc0e245382deca5b3c353d8b757f9e3ecb8d --hash=sha256:b3d267842bf12586ba6c734f89d1f5b871df0273157918b0ccefa29deb05c21c --hash=sha256:b5b9eccad747aabaaffbc6064800670f0c297e52c12754eb1d976c57e4f74dcb --hash=sha256:bfaef573a63ba8923503d27530362590ff4f576c626d86a9fed95822a8255fd7 --hash=sha256:c5687b8d43cf58545ade1fe3e055f70eac7a5a1a0bf42824308d868289a95737 --hash=sha256:cba8c411ef271aa037d7357a2bc8f9ee8b58b9965831d9e51baf703280dc73d3 --hash=sha256:d15a181d1ecd0d4270dc32edb46f7cb7733c7c508857278d3d378d14d606db2d --hash=sha256:d4b0ba9512519522b118090257be113b9468d804b19d63c71dbcf4a48fa32358 --hash=sha256:d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53 --hash=sha256:d4eccecf9adf6fbcc6861a38015c2a64f38b9d94838ac1810a9023a0609e1b78 --hash=sha256:d67d839ede4ed1b28a4e8909735fc992a923cdb84e618544973d7dfc71540803 --hash=sha256:daf496c58a8c52083df09b80c860005194014c3698698d1a57cbcfa182142a3a --hash=sha256:dbad0e9d368bb989f4515da330b88a057617d16b6a8245084f1b05400f24609f --hash=sha256:e61ceaab6f49fb8bdfaa0f92c4b57bcfbea54c09277b1b4f7ac376bfb7a7c174 --hash=sha256:f84fbc98b019fef2ee9a1cb3ce93e3187a6df0b2538a651bfb890254ba9f90b5"
+            }
+          },
+          "rules_ros2_pip_deps_311_setuptools": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "setuptools==65.4.1 --hash=sha256:1b6bdc6161661409c5f21508763dc63ab20a9ac2f8ba20029aaaa7fdb9118012 --hash=sha256:3050e338e5871e70c72983072fe34f6032ae1cdeeeb67338199c2f74e083a80e"
+            }
+          },
+          "rules_ros2_pip_deps_311_six": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "six==1.16.0 --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            }
+          },
+          "rules_ros2_pip_deps_311_tomli": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "tomli==2.0.1 --hash=sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc --hash=sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
+            }
+          },
+          "rules_ros2_pip_deps_311_types_pkg_resources": {
+            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
+            "ruleClassName": "whl_library",
+            "attributes": {
+              "dep_template": "@rules_ros2_pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
+              "repo": "rules_ros2_pip_deps_311",
+              "requirement": "types-pkg-resources==0.1.3 --hash=sha256:0cb9972cee992249f93fff1a491bf2dc3ce674e5a1926e27d4f0866f7d9b6d9c --hash=sha256:834a9b8d3dbea343562fd99d5d3359a726f6bf9d3733bccd2b4f3096fbab9dae"
+            }
+          },
           "pip_deps": {
             "bzlFile": "@@rules_python~//python/private/pypi:hub_repository.bzl",
             "ruleClassName": "hub_repository",
@@ -3389,6 +5012,61 @@
                 "twine",
                 "urllib3",
                 "zipp"
+              ],
+              "groups": {}
+            }
+          },
+          "rules_ros2_pip_deps": {
+            "bzlFile": "@@rules_python~//python/private/pypi:hub_repository.bzl",
+            "ruleClassName": "hub_repository",
+            "attributes": {
+              "repo_name": "rules_ros2_pip_deps",
+              "extra_hub_aliases": {},
+              "whl_map": {
+                "attrs": "{\"rules_ros2_pip_deps_310_attrs\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_attrs\":[{\"version\":\"3.11\"}]}",
+                "catkin_pkg": "{\"rules_ros2_pip_deps_310_catkin_pkg\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_catkin_pkg\":[{\"version\":\"3.11\"}]}",
+                "coverage": "{\"rules_ros2_pip_deps_310_coverage\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_coverage\":[{\"version\":\"3.11\"}]}",
+                "docutils": "{\"rules_ros2_pip_deps_310_docutils\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_docutils\":[{\"version\":\"3.11\"}]}",
+                "empy": "{\"rules_ros2_pip_deps_310_empy\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_empy\":[{\"version\":\"3.11\"}]}",
+                "exceptiongroup": "{\"rules_ros2_pip_deps_310_exceptiongroup\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_exceptiongroup\":[{\"version\":\"3.11\"}]}",
+                "iniconfig": "{\"rules_ros2_pip_deps_310_iniconfig\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_iniconfig\":[{\"version\":\"3.11\"}]}",
+                "lark_parser": "{\"rules_ros2_pip_deps_310_lark_parser\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_lark_parser\":[{\"version\":\"3.11\"}]}",
+                "numpy": "{\"rules_ros2_pip_deps_310_numpy\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_numpy\":[{\"version\":\"3.11\"}]}",
+                "packaging": "{\"rules_ros2_pip_deps_310_packaging\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_packaging\":[{\"version\":\"3.11\"}]}",
+                "pluggy": "{\"rules_ros2_pip_deps_310_pluggy\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_pluggy\":[{\"version\":\"3.11\"}]}",
+                "psutil": "{\"rules_ros2_pip_deps_310_psutil\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_psutil\":[{\"version\":\"3.11\"}]}",
+                "pyparsing": "{\"rules_ros2_pip_deps_310_pyparsing\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_pyparsing\":[{\"version\":\"3.11\"}]}",
+                "pytest": "{\"rules_ros2_pip_deps_310_pytest\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_pytest\":[{\"version\":\"3.11\"}]}",
+                "pytest_cov": "{\"rules_ros2_pip_deps_310_pytest_cov\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_pytest_cov\":[{\"version\":\"3.11\"}]}",
+                "python_dateutil": "{\"rules_ros2_pip_deps_310_python_dateutil\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_python_dateutil\":[{\"version\":\"3.11\"}]}",
+                "pyyaml": "{\"rules_ros2_pip_deps_310_pyyaml\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_pyyaml\":[{\"version\":\"3.11\"}]}",
+                "setuptools": "{\"rules_ros2_pip_deps_310_setuptools\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_setuptools\":[{\"version\":\"3.11\"}]}",
+                "six": "{\"rules_ros2_pip_deps_310_six\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_six\":[{\"version\":\"3.11\"}]}",
+                "tomli": "{\"rules_ros2_pip_deps_310_tomli\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_tomli\":[{\"version\":\"3.11\"}]}",
+                "types_pkg_resources": "{\"rules_ros2_pip_deps_310_types_pkg_resources\":[{\"version\":\"3.10\"}],\"rules_ros2_pip_deps_311_types_pkg_resources\":[{\"version\":\"3.11\"}]}"
+              },
+              "packages": [
+                "attrs",
+                "catkin_pkg",
+                "coverage",
+                "docutils",
+                "empy",
+                "exceptiongroup",
+                "iniconfig",
+                "lark_parser",
+                "numpy",
+                "packaging",
+                "pluggy",
+                "psutil",
+                "pyparsing",
+                "pytest",
+                "pytest_cov",
+                "python_dateutil",
+                "pyyaml",
+                "setuptools",
+                "six",
+                "tomli",
+                "types_pkg_resources"
               ],
               "groups": {}
             }
