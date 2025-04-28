@@ -55,4 +55,6 @@ use_repo(
     # ros2cli and ros2_launch_ros are required to run a ros2_launch target
     "ros2cli",
     "ros2_launch_ros",
+    # ros2launch is required to test a ros2_test target
+    "ros2_launch",
 )

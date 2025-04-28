@@ -19,7 +19,9 @@ def main():
         pass
     finally:
         listener.destroy_node()
-        rclpy.shutdown()
+        # TODO: Uncomment the following line once the double shutdown bug is fixed.
+        # https://github.com/ros2/rclpy/issues/1081
+        # rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
