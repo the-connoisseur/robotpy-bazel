@@ -31,6 +31,13 @@ uv.configure(version = "0.6.14")
 pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
 pip.parse(
     hub_name = "robotpy_bazel_pip_deps",
+    python_version = "3.11",
+    requirements_lock = "//:requirements_lock.txt",
+    experimental_index_url = "https://pypi.org/simple",
+    download_only = True,
+)
+pip.parse(
+    hub_name = "robotpy_bazel_pip_deps",
     python_version = "3.13",
     requirements_lock = "//:requirements_lock.txt",
     experimental_index_url = "https://pypi.org/simple",
