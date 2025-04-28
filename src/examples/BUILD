@@ -1,4 +1,5 @@
 load("@com_github_mvukov_rules_ros2//ros2:launch.bzl", "ros2_launch")
+load("@com_github_mvukov_rules_ros2//ros2:test.bzl", "ros2_test")
 load("@robotpy_bazel_pip_deps//:requirements.bzl", "requirement")
 load("@rules_pkg//:pkg.bzl", "pkg_tar")
 load("@rules_python//python:defs.bzl", "py_binary")
@@ -45,5 +46,17 @@ ros2_launch(
     nodes = [
         ":talker",
         ":listener",
+    ],
+)
+
+ros2_test(
+    name = "talker_test",
+    size = "small",
+    launch_file = "talker_test.py",
+    nodes = [
+        ":talker",
+    ],
+    deps = [
+        "@ros2_common_interfaces//:py_std_msgs"
     ],
 )
