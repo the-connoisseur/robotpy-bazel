@@ -18,7 +18,12 @@ def generate_test_description():
                 {
                     'timer_period_sec': 0.01
                 }
-            ]
+            ],
+            arguments = [
+                "--ros-args",
+                "--log-level",
+                "warn"
+            ],
         ),
         # The talker node seems to take ~half a second to start publishing. Since our
         # test cases expect talker to be in steady state (already publishing

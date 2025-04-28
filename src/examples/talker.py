@@ -15,7 +15,7 @@ class Talker(Node):
         msg = String()
         msg.data = f'Hello, world: {self.i}'
         self.publisher.publish(msg)
-        self.get_logger().debug(f'Publishing: {msg.data}')
+        self.get_logger().info(f'Publishing: {msg.data}')
         self.i += 1
 
 def main():
