@@ -1,0 +1,5 @@
+#!/bin/bash --norc
+
+exec -a aarch64-linux-cpp \
+	"external/_main~_repo_rules~aarch64_glibc_stable_2022-08-1/bin/aarch64-linux-cpp" \
+	"$@"

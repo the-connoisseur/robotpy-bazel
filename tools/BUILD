@@ -8,6 +8,7 @@ py_binary(
     # Change this to the version you want to test. See MODULE.bazel for supported versions.
     python_version = "3.13",
 )
+
 py_binary(
     name = "format_py",
     srcs = ["format_py.py"],
