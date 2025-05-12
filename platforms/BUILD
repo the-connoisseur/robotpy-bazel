@@ -1,3 +1,5 @@
+package(default_visibility = ["//visibility:public"])
+
 platform(
     name = "linux_aarch64",
     constraint_values = [
