@@ -76,6 +76,7 @@ http_archive(
     sha256 = "8af54f268c462b2d0737df8789b5e35db03a2d1ecbec90e20948f66f9244fcdd",
     build_file = "//tools/cpp/jetson_linux:aarch64_glibc_stable_2022-08-1.BUILD",
     strip_prefix = "aarch64--glibc--stable-2022.08-1",
+    patch_cmds = ["rm usr"],
 )
 
 register_toolchains("//tools/cpp:cc_toolchain_for_jetson_linux")
