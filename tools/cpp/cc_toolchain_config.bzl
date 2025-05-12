@@ -4,47 +4,51 @@ def _impl(ctx):
     tool_paths = [
         tool_path(
             name = "gcc",
-            path = "aarch64_glibc_stable_2022-08-1_gcc",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_gcc",
         ),
         tool_path(
             name = "ld",
-            path = "aarch64_glibc_stable_2022-08-1_ld",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_ld",
         ),
         tool_path(
             name = "ar",
-            path = "aarch64_glibc_stable_2022-08-1_ar",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_ar",
         ),
         tool_path(
             name = "as",
-            path = "aarch64_glibc_stable_2022-08-1_as",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_as",
         ),
         tool_path(
             name = "cpp",
-            path = "aarch64_glibc_stable_2022-08-1_cpp",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_cpp",
         ),
         tool_path(
             name = "nm",
-            path = "aarch64_glibc_stable_2022-08-1_nm",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_nm",
         ),
         tool_path(
             name = "objcopy",
-            path = "aarch64_glibc_stable_2022-08-1_objcopy",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_objcopy",
         ),
         tool_path(
             name = "objdump",
-            path = "aarch64_glibc_stable_2022-08-1_objdump",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_objdump",
         ),
         tool_path(
             name = "strip",
-            path = "aarch64_glibc_stable_2022-08-1_strip",
+            path = "jetson_linux/aarch64_glibc_stable_2022-08-1_strip",
         ),
     ]
 
     return cc_common.create_cc_toolchain_config_info(
         ctx = ctx,
+        builtin_sysroot = "%package(@aarch64_glibc_stable_2022-08-1//aarch64-buildroot-linux-gnu)%",
         cxx_builtin_include_directories = [
-            "%package(@aarch64_glibc_stable_2022-08-1//aarch64-buildroot-linux-gnu/include/c++)%",
-            "%package(@aarch64_glibc_stable_2022-08-1//aarch64-buildroot-linux-gnu/sysroot/usr/include)%",
+            # "%package(@aarch64_glibc_stable_2022-08-1//aarch64-buildroot-linux-gnu/include/c++/11.3.0)%",
+            # "%package(@aarch64_glibc_stable_2022-08-1//aarch64-buildroot-linux-gnu/sysroot/usr/include)%",
+            "%sysroot%/include/c++/11.3.0",
+            "%sysroot%/include/c++/11.3.0/parallel",
+            "%sysroot%/sysroot/usr/include",
         ],
         toolchain_identifier = "aarch64-linux-toolchain",
         host_system_name = "local",
