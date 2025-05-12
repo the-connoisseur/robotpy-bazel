@@ -3,6 +3,7 @@ load("@com_github_mvukov_rules_ros2//ros2:test.bzl", "ros2_test")
 load("@robotpy_bazel_pip_deps//:requirements.bzl", "requirement")
 load("@rules_pkg//:pkg.bzl", "pkg_tar")
 load("@rules_python//python:defs.bzl", "py_binary")
+load("@rules_cc//cc:defs.bzl", "cc_binary")
 
 py_binary(
     name = "multi_platform_support_test",
@@ -59,4 +60,9 @@ ros2_test(
     deps = [
         "@ros2_common_interfaces//:py_std_msgs"
     ],
+)
+
+cc_binary(
+    name = "hello_world",
+    srcs = ["hello_world.cc"],
 )

@@ -275,6 +275,8 @@
     "https://bcr.bazel.build/modules/tinyxml/2.6.2/source.json": "94ee90008aa5a459d19459006b0b0ac9417fd6ab97bebe3059cdb87c3d25a582",
     "https://bcr.bazel.build/modules/tinyxml2/10.0.0/MODULE.bazel": "7c2c2fd7f9bd767e5c98eeb46385dba08c81be321d885ed077da9383e85aebc7",
     "https://bcr.bazel.build/modules/tinyxml2/10.0.0/source.json": "e6f10ec3ed2d93b165a6556ec0cca75f3f1f1b508494c618ed398d38919947a0",
+    "https://bcr.bazel.build/modules/toolchains_llvm/1.4.0/MODULE.bazel": "05239402b7374293359c2f22806f420b75aa5d6f4b15a2eaa809a2c214d58b31",
+    "https://bcr.bazel.build/modules/toolchains_llvm/1.4.0/source.json": "229a516d282b17a82be54c6e3ae220a1b750fb55a8495567e5c7a9d09423f3e2",
     "https://bcr.bazel.build/modules/upb/0.0.0-20220923-a547704/MODULE.bazel": "7298990c00040a0e2f121f6c32544bab27d4452f80d9ce51349b1a28f3005c43",
     "https://bcr.bazel.build/modules/websocketpp/0.8.2.bcr.3/MODULE.bazel": "e3e56c3c4857b273c124d54fb987fa96bc76d88e36ad4924d8740a9a2c07d75b",
     "https://bcr.bazel.build/modules/websocketpp/0.8.2.bcr.3/source.json": "249be9379abfb8011d4e35d25db2726881006fb01cb0fbd594ca2338c0e028c2",
@@ -6437,6 +6439,101 @@
             "rules_python~",
             "platforms",
             "platforms"
+          ]
+        ]
+      }
+    },
+    "@@toolchains_llvm~//toolchain/extensions:llvm.bzl%llvm": {
+      "general": {
+        "bzlTransitiveDigest": "afRF0aFOIUrkYl3o040WQ606ep1qciEXzjnAxT3Kek8=",
+        "usagesDigest": "h1ME9WfiaViCJp0NEFrdO5iyzIE99IbuTm6Ay/SUyBU=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "llvm_toolchain_for_nvidia_jetson_llvm": {
+            "bzlFile": "@@toolchains_llvm~//toolchain:rules.bzl",
+            "ruleClassName": "llvm",
+            "attributes": {
+              "alternative_llvm_sources": [],
+              "auth_patterns": {},
+              "distribution": "auto",
+              "exec_arch": "",
+              "exec_os": "",
+              "libclang_rt": {},
+              "llvm_mirror": "",
+              "llvm_version": "19.1.1",
+              "llvm_versions": {},
+              "netrc": "",
+              "sha256": {},
+              "strip_prefix": {},
+              "urls": {}
+            }
+          },
+          "llvm_toolchain_for_nvidia_jetson": {
+            "bzlFile": "@@toolchains_llvm~//toolchain:rules.bzl",
+            "ruleClassName": "toolchain",
+            "attributes": {
+              "absolute_paths": false,
+              "archive_flags": {},
+              "compile_flags": {},
+              "conly_flags": {},
+              "coverage_compile_flags": {},
+              "coverage_link_flags": {},
+              "cxx_builtin_include_directories": {
+                "linux-aarch64": [
+                  "%sysroot%/usr/include",
+                  "%sysroot%/usr/lib"
+                ]
+              },
+              "cxx_flags": {},
+              "cxx_standard": {
+                "": "c++20"
+              },
+              "dbg_compile_flags": {},
+              "exec_arch": "",
+              "exec_os": "",
+              "extra_exec_compatible_with": {},
+              "extra_target_compatible_with": {},
+              "link_flags": {},
+              "link_libs": {},
+              "llvm_versions": {
+                "": "19.1.1"
+              },
+              "opt_compile_flags": {},
+              "opt_link_flags": {},
+              "stdlib": {
+                "linux-aarch64": "stdc++"
+              },
+              "target_settings": {},
+              "unfiltered_compile_flags": {},
+              "toolchain_roots": {},
+              "sysroot": {
+                "linux-aarch64": "'@@_main~_repo_rules~aarch64_glibc_stable_2022-08-1//:sysroot'"
+              }
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "",
+            "aarch64_glibc_stable_2022-08-1",
+            "_main~_repo_rules~aarch64_glibc_stable_2022-08-1"
+          ],
+          [
+            "toolchains_llvm~",
+            "bazel_skylib",
+            "bazel_skylib~"
+          ],
+          [
+            "toolchains_llvm~",
+            "bazel_tools",
+            "bazel_tools"
+          ],
+          [
+            "toolchains_llvm~",
+            "toolchains_llvm",
+            "toolchains_llvm~"
           ]
         ]
       }
