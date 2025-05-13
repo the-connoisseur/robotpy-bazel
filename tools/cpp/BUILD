@@ -47,6 +47,8 @@ cc_toolchain(
     toolchain_identifier = "linux_aarch64-toolchain",
     toolchain_config = ":jetson_linux_toolchain_config",
     all_files = ":all_files",
+    ar_files = ":ar_files",
+    as_files = ":compiler_files",
     compiler_files = ":compiler_files",
     linker_files = ":linker_files",
     dwp_files = ":empty",

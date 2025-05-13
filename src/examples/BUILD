@@ -4,9 +4,18 @@ load("@robotpy_bazel_pip_deps//:requirements.bzl", "requirement")
 load("@rules_pkg//:pkg.bzl", "pkg_tar")
 load("@rules_python//python:defs.bzl", "py_binary")
 
+cc_library(
+    name = "hello_world_lib",
+    srcs = ["hello_world_lib.cc"],
+    hdrs = ["hello_world_lib.h"],
+)
+
 cc_binary(
     name = "hello_world",
     srcs = ["hello_world.cc"],
+    deps = [
+        ":hello_world_lib",
+    ],
 )
 
 py_binary(

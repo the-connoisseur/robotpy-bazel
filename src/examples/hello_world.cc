@@ -1,5 +1,5 @@
-#include <iostream>
+#include "src/examples/hello_world_lib.h"
 
 int main() {
-    std::cout << "Hello, world!" << std::endl;
+    src::examples::SayHello();
 }
